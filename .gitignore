@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+.DS_Store
+test-results/
+playwright-report/
+coverage/
+
+# Personal source files and built datapacks are read from a folder outside
+# the repository (APP_TECH_ARCHITECTURE_V0.md §17). Never commit real data.
+/datapacks/
+*.pto-backup*.json
