@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Personal Training OS</title>
+    <meta name="description" content="Personal, non-commercial Alloy-inspired workout planning system." />
+    <meta name="theme-color" content="#0b0c0f" />
+
+    <!-- PWA: installable, works offline after first load (APP_TECH_ARCHITECTURE_V0.md §11-12) -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png" />
+
+    <!-- iOS ignores the manifest's icons/display mode; these are read separately. -->
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Training OS" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,322 @@
+/* Mobile-first (PRODUCT_UX_SPEC_V0.md §2). Optimized first for iPhone-sized screens;
+   the max-width + media queries below only adjust layout width for iPad/desktop —
+   the core hard rules (one fixed primary button, no dialogs mid-session, big tap
+   targets) hold at every size. */
+
+:root {
+  --bg: #0b0c0f;
+  --surface: #16181d;
+  --surface-2: #1e2128;
+  --border: #2a2e37;
+  --text: #f4f5f7;
+  --text-dim: #9aa1ad;
+  --accent: #4f8cff;
+  --good: #3ecf7e;
+  --warn: #e8b339;
+  --bad: #ef5b5b;
+  --primary-btn-height: 76px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  position: relative;
+}
+
+.screen {
+  flex: 1;
+  padding: 20px 16px calc(var(--primary-btn-height) + 40px);
+  overflow-y: auto;
+}
+
+.screen--no-primary {
+  padding-bottom: 20px;
+}
+
+h1, h2, h3 { margin: 0 0 8px; }
+h1 { font-size: 22px; }
+h2 { font-size: 18px; }
+h3 { font-size: 15px; color: var(--text-dim); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+p { margin: 0 0 12px; line-height: 1.4; }
+
+.muted { color: var(--text-dim); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.card--active {
+  border-color: var(--accent);
+}
+
+/* ---- primary action: fixed, full-width, >=72pt tall (D hard rule §2.1) ---- */
+.primary-bar {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 16px calc(10px + var(--safe-bottom));
+  background: linear-gradient(to top, var(--bg) 60%, transparent);
+}
+
+.btn-primary {
+  width: 100%;
+  min-height: var(--primary-btn-height);
+  border-radius: 16px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary:active { opacity: 0.85; }
+.btn-primary:disabled { background: var(--border); color: var(--text-dim); }
+
+.btn-secondary {
+  width: 100%;
+  min-height: 52px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-danger { color: var(--bad); }
+
+/* ---- chips (D-087 weight entry, sore regions, sleep, etc.) ---- */
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.chip--selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+/* ---- effort buttons (D-067: 4 buttons, no numeric RPE) ---- */
+.effort-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.effort-btn {
+  min-height: 64px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.effort-btn--too_easy { border-color: var(--good); }
+.effort-btn--good { border-color: var(--good); }
+.effort-btn--hard { border-color: var(--warn); }
+.effort-btn--too_hard { border-color: var(--bad); }
+.effort-btn--selected { background: var(--surface); box-shadow: inset 0 0 0 2px currentColor; }
+
+/* ---- exercise card / focus mode ---- */
+.step-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+.step-header .slot-label { font-size: 13px; color: var(--text-dim); }
+.exercise-name { font-size: 26px; font-weight: 800; margin-bottom: 2px; }
+.set-progress { color: var(--text-dim); margin-bottom: 16px; }
+
+.prescription-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.prescription-row .metric { flex: 1; text-align: center; background: var(--surface); border-radius: 12px; padding: 14px 8px; }
+.prescription-row .metric .value { font-size: 24px; font-weight: 800; }
+.prescription-row .metric .label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; }
+
+.card-actions { display: flex; gap: 10px; margin-top: 8px; margin-bottom: 8px; }
+.card-actions .btn-text { flex: 1; text-align: center; border: 1px solid var(--border); border-radius: 12px; }
+
+/* ---- rest timer ---- */
+.rest-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 12, 15, 0.97);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.rest-timer-number { font-size: 64px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.rest-overlay .overrun { color: var(--warn); }
+.rest-overlay .up-next { color: var(--text-dim); margin-top: 16px; text-align: center; }
+
+/* ---- bottom sheets (swap, why, discomfort) ---- */
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 30;
+  display: flex;
+  align-items: flex-end;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.sheet {
+  background: var(--surface);
+  border-radius: 20px 20px 0 0;
+  padding: 20px 16px calc(20px + var(--safe-bottom));
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.sheet-option {
+  width: 100%;
+  text-align: left;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  margin-bottom: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.sheet-option .name { font-weight: 700; }
+.sheet-option .why { color: var(--text-dim); font-size: 13px; margin-top: 2px; }
+
+/* ---- readiness form ---- */
+.field { margin-bottom: 20px; }
+.field label { display: block; margin-bottom: 8px; font-weight: 600; }
+
+/* ---- overview blocks ---- */
+.block-group { margin-bottom: 18px; }
+.overview-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.overview-item:last-child { border-bottom: none; }
+.overview-item .name { font-weight: 600; }
+.overview-item .dose { color: var(--text-dim); font-size: 13px; }
+
+/* ---- tab bar (Today / Log Alloy / History / Equipment / Profile) ---- */
+.tab-bar {
+  display: flex;
+  overflow-x: auto;
+  gap: 4px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.tab-btn {
+  flex: none;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tab-btn--active { background: var(--accent); border-color: var(--accent); color: white; }
+
+/* ---- text inputs / textareas (Log Alloy, Equipment, Profile forms) ---- */
+.text-input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  margin-top: 4px;
+  font-family: inherit;
+}
+textarea.text-input { resize: vertical; }
+
+/* ---- simple list rows (equipment items, avoidances, schedule entries, history) ---- */
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+}
+.list-row .name { font-weight: 600; }
+
+/* ---- loading / error ---- */
+.center-screen { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; text-align: center; }
+
+/* =========================================================================
+   Responsive: verified for iPad and desktop after the iPhone-first pass.
+   The workout loop stays a single centered column (it's a focused, one-thing-
+   at-a-time flow by design, §2.1) but gets more breathing room on larger
+   screens rather than stretching full-width. */
+@media (min-width: 700px) {
+  .app-shell { max-width: 560px; box-shadow: 0 0 0 1px var(--border); min-height: 100vh; }
+  .rest-overlay, .sheet-backdrop { max-width: 560px; }
+}
+
+@media (min-width: 1024px) {
+  body { display: flex; justify-content: center; background: var(--surface-2); }
+  .app-shell { max-width: 620px; margin: 24px auto; min-height: calc(100vh - 48px); border-radius: 20px; overflow: hidden; }
+  .rest-overlay, .sheet-backdrop { max-width: 620px; border-radius: 20px; }
+}
