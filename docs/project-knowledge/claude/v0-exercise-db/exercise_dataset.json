@@ -1,0 +1,4053 @@
+[
+  {
+    "exercise_id": "EX001",
+    "canonical_name": "Push-Up",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/deck-cards-exercise-snapshot-push/"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight",
+      "Suspension Trainer",
+      "Dumbbells"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": "15, 20",
+    "observed_set_ranges": "3, 4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Floor Press in compound sets; Burpees in AMRAPs",
+    "observed_workout_formats": "5-10-15-20-25 Ladder, EMOM, AMRAP, Compound Sets",
+    "documented_progressions": "Resisted Push-Up, Explosive Push-Up",
+    "documented_regressions": "Knee Push-Up, Elevated Push-Up",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Place hands firmly on ground under shoulders. Tighten core, engage glutes and hamstrings, flatten back. Tuck chin in. Lower body until chest touches floor. Keep elbows tucked.",
+    "documented_purpose": "Strengthens chest, triceps, shoulders, and anterior/posterior anti-extension core muscles. Safer for shoulders than traditional horizontal pushes.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX002",
+    "canonical_name": "Jump Lunges",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/15-minute-no-equipment-workout/"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Plyometric"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": "10, 20, Ascending",
+    "observed_set_ranges": "3, 4+",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced with Burpees and Pushups",
+    "observed_workout_formats": "EMOMs, Ladders, Timed Ascending Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Bodyweight anaerobic conditioning and explosive lower body power.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX003",
+    "canonical_name": "Bird Dog Plank",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/15-minute-no-equipment-workout/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Isometrics"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Contralateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation / Anti-extension",
+    "observed_rep_ranges": "20",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced after plyometrics to enforce static stability",
+    "observed_workout_formats": "EMOM (Top of the Minute)",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Strengthens the core via anti-extension and anti-rotation, building immense core strength.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX004",
+    "canonical_name": "Touch Down Squats",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/15-minute-no-equipment-workout/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Bodyweight"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within bodyweight circuits",
+    "observed_workout_formats": "EMOM (Top of the Minute)",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Bodyweight conditioning and lower body endurance.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX005",
+    "canonical_name": "Yard Sprint",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/15-minute-no-equipment-workout/"
+    ],
+    "primary_pattern": "Locomotion",
+    "secondary_patterns": [
+      "Sprint"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Alternating",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "25, 50 yards",
+    "observed_set_ranges": "3, 4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Placed at the end of ladders as a cardiovascular spike",
+    "observed_workout_formats": "EMOM, Ladders",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Cardiovascular conditioning and anaerobic threshold training.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX006",
+    "canonical_name": "Burpee",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/5-10-15-20-25-workout/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Plyometric"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Push/Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": "5, 15",
+    "observed_set_ranges": "4+",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced with Jump Lunges and Pushups",
+    "observed_workout_formats": "5-10-15-20-25 Ladder, 20-min AMRAP",
+    "documented_progressions": null,
+    "documented_regressions": "Elevated hands on surface",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Total body anaerobic conditioning and metabolic demand.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX007",
+    "canonical_name": "Overhead Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/5-10-15-20-25-workout/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Thoracic Extension"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": "20",
+    "observed_set_ranges": "4+",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Follows pushups in conditioning ladders",
+    "observed_workout_formats": "5-10-15-20-25 Ladder",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hold arms in a \"Y\" position while descending into a squat.",
+    "documented_purpose": "Full body mobility, thoracic extension, and lower body strength.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX008",
+    "canonical_name": "Single-Arm Kettlebell Swing",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/power-5-workout/"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "5",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Initiator for the \"Power of 5\" complex",
+    "observed_workout_formats": "Complexes, Conditioning Circuits",
+    "documented_progressions": "Load and ROM increases",
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Keep glutes tight throughout the swing to protect the spine and recruit powerful muscles.",
+    "documented_purpose": "Builds explosive leg power, tones and strengthens glutes via hip-dominant movement.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX009",
+    "canonical_name": "Single-Arm Kettlebell Clean",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Vertical Pull"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Vertical",
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "5, 8, 10, 15",
+    "observed_set_ranges": "3, 4, 5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Flowed directly into Squats or Presses without dropping weight",
+    "observed_workout_formats": "Kettlebell Complexes, Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Start with a hip hinge. Grip handle. Explosively extend hips, bringing kettlebell to shoulder keeping elbow close to body.",
+    "documented_purpose": "Essential kettlebell proficiency exercise. Strengthens shoulders, forearms, upper back, and grip.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX010",
+    "canonical_name": "Squat to Cable Row",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/power-5-workout/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Squat + Horiz Pull"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Hybrid",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Cable / Suspension"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": "5",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced dynamically after KB Cleans",
+    "observed_workout_formats": "Continuous Conditioning Circuit",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Full-body exercise. Horizontal rowing improves posture, builds upper back muscle; squat increases lower body engagement.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX011",
+    "canonical_name": "Kettlebell Deadlift",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Posterior Chain"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral/Uni",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion / Anti-rotation",
+    "observed_rep_ranges": "5, 6, 12",
+    "observed_set_ranges": "4, 5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Explosive Broad Jumps in compound sets",
+    "observed_workout_formats": "Complexes, Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Stand feet hip-width. Hinge at hips, keep back flat. Grip handle. Drive through heels, extend hips and knees. Maintain neutral spine.",
+    "documented_purpose": "Strengthens posterior chain, enhances hip/knee stability, develops grip strength, improves posture.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX012",
+    "canonical_name": "Goblet Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Anterior Core"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": "6, 10, 12",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Jump Squats in Compound Sets; follows Swing",
+    "observed_workout_formats": "Circuit Training, Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": "Box Squat",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hold kettlebell close to chest. Descend into squat keeping back straight. Return to starting position.",
+    "documented_purpose": "Targets lower body. Builds strong legs, keeps torso upright to reduce back strain, enhances core stability.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX013",
+    "canonical_name": "Goblet Split Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/goblet-split-squat/"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Squat"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": "8",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Contralateral Single Leg Deadlifts and Chin Ups",
+    "observed_workout_formats": "Timed Circuit (Fab 4 Workout)",
+    "documented_progressions": null,
+    "documented_regressions": "Step-up",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Set up in bottom lunge position. Vertical front shin. Hold kettlebell under chin. Vertical torso, drive through front heel.",
+    "documented_purpose": "Targets entire lower body. Eliminates forward momentum, providing pain-free lunging for individuals with knee issues.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX014",
+    "canonical_name": "Kettlebell Bent Over Row",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Isometric Hinge"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "8, 10, 15, Ascending",
+    "observed_set_ranges": "3, 4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced with Cleans, Squats, Presses in single-sided complexes",
+    "observed_workout_formats": "Unilateral complexes, Timed ladders",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hinge at hips, flat back. Pull kettlebell toward ribcage, keeping elbow close to body and squeezing shoulder blades.",
+    "documented_purpose": "Targets upper back muscles. Improves posture, spinal stability, and grip strength.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX015",
+    "canonical_name": "Kettlebell Overhead Press",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Press",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-lateral flexion",
+    "observed_rep_ranges": "8, 10, 15, Ascending",
+    "observed_set_ranges": "3, 4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced after Squats in complex routines",
+    "observed_workout_formats": "Unilateral Complexes, AMRAPs",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Start in rack position. Keep wrist neutral. Press overhead keeping core engaged and body stable.",
+    "documented_purpose": "Targets shoulders, triceps, core. Builds shoulder stability and upper body strength.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX016",
+    "canonical_name": "Single Arm Kettlebell Thruster",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/power-5-exercise-1/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Squat to Press"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-lateral flexion",
+    "observed_rep_ranges": "5",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Benchmark weight test for extended complexes",
+    "observed_workout_formats": "Benchmark Load Testing",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Full-body strength/conditioning. Works shoulders, triceps, glutes, quads, core. Used as benchmark to determine workout load.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX017",
+    "canonical_name": "Kettlebell Suitcase Lunge",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Unilateral Carry"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-lateral flexion",
+    "observed_rep_ranges": "12",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Standard set/rep protocols",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hold kettlebell in one hand by side. Step forward with opposite leg. Lower back knee to ground. Push through front foot.",
+    "documented_purpose": "Challenges core stability. Improves single-leg strength, coordination, and hip mobility.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX018",
+    "canonical_name": "Kettlebell Front Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/7-fundamental-kettlebell-workouts-for-strength-and-stamina/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Anterior Core"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": "8",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Standard set/rep protocols",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hold kettlebell by horns in front of chest. Descend into squat pushing hips back. Drive through heels.",
+    "documented_purpose": "Challenges balance and stability. Develops functional strength and improves hip/ankle mobility.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX019",
+    "canonical_name": "Swing to Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/exercises-you-should-be-doing-swing-to-squat/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Hinge to Squat"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Hybrid",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": "High reps",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Standalone flow movement",
+    "observed_workout_formats": "Fat loss circuits, Finishers",
+    "documented_progressions": "Heavier bell, deeper squat",
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Swing kettlebell, catch by handles at top position, perform goblet squat. Keep glutes tight.",
+    "documented_purpose": "Combines hip-dominant and knee-dominant movements. Ideal for time constraints and fat loss circuits.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX020",
+    "canonical_name": "Speed Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/lower-body/page/8/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Plyometric Prep"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Movement Prep / Warm-up",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Teaches how to jump squat properly without having to leave the ground.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX021",
+    "canonical_name": "Assisted Single-Leg Lowering",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/lower-body/page/8/"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Core Activation"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Roller / Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Dynamic Warm-up",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Lie on back. Place both feet on roller.",
+    "documented_purpose": "Mobility drill that improves hip mobility and stability, helps with core activation and fixing asymmetries.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX022",
+    "canonical_name": "Half Kneeling Low to High Chop",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/lower-body/page/8/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Diagonal Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "Hybrid",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Cable / Band"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation / Dynamic Rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Dynamic Warm-up / Core Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Assume a half-kneeling position.",
+    "documented_purpose": "Improves core strength and hip stability. Half-kneeling position stretches quads and tight hip flexors.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX023",
+    "canonical_name": "Lateral Band Walk",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/lower-body/page/8/"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Hip Abduction"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Resistance Band"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Dynamic Warm-up",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Mobility drill improving hip stability. Strengthens hip abductors (gluteus medius) to prevent knee pain.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX024",
+    "canonical_name": "Single-Arm Kettlebell Snatch",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/lower-body/page/8/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Explosive Hinge"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Power Development Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Promotes strength, power, conditioning. Utilizes quads, hips, glutes, core, hamstrings with high muscle activation at top.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX025",
+    "canonical_name": "Plank With Shoulder Touch",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/15-min-home-workout/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Isometric Hold"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "1, Ascending",
+    "observed_set_ranges": "4+",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced after Jump Lunges",
+    "observed_workout_formats": "Ascending Ladders",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Core stabilization challenging anti-rotation via limb lifting.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX026",
+    "canonical_name": "Suspension Ys",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Scapular Retraction"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within TRX circuits",
+    "observed_workout_formats": "Timed Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Targets posterior deltoids, rhomboids, and lower traps for shoulder health.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX027",
+    "canonical_name": "Assisted Squats",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Supported ROM"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within TRX circuits",
+    "observed_workout_formats": "Timed Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Provides mechanical assistance for deeper squat ranges of motion.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX028",
+    "canonical_name": "Suspension Hip Bridge to Leg Curl",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Knee Flexion"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within TRX circuits",
+    "observed_workout_formats": "Timed Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Isolates hamstrings and glutes while requiring intense core stabilization.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX029",
+    "canonical_name": "Stability Ball Rollout",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/core/page/6/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Shoulder Flexion"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Stability Ball",
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within TRX circuits",
+    "observed_workout_formats": "Core Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Goal is to resist movement as opposed to entering spinal flexion.",
+    "documented_purpose": "Strengthens core deeply. Safer than crunches as it avoids spinal flexion by utilizing anti-extension mechanics.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX030",
+    "canonical_name": "Skaters",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Plyometric",
+    "secondary_patterns": [
+      "Lateral Bound"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "As many as possible",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Pushups and Burpees",
+    "observed_workout_formats": "20-min AMRAP",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Lateral plyometric movement for athletic conditioning.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX031",
+    "canonical_name": "Reverse Lunges",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Knee Dominant"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "As many as possible",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Mountain Climbers",
+    "observed_workout_formats": "20-min AMRAP",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Knee-dominant lower body strength pattern.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX032",
+    "canonical_name": "Mountain Climbers",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Hip Flexion"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Alternating",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": "15",
+    "observed_set_ranges": "As many as possible",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Reverse Lunges",
+    "observed_workout_formats": "20-min AMRAP",
+    "documented_progressions": null,
+    "documented_regressions": "Elevate hands",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "High-intensity cardiovascular conditioning and core stability.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX033",
+    "canonical_name": "Box Row",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/workout/page/13/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horiz Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Box / Dumbbells"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "Ascending",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced in rep ladders",
+    "observed_workout_formats": "Repetition Ladders",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Horizontal pulling strength from a mechanically supported position.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX034",
+    "canonical_name": "Renegade Row",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/14/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells / Kettlebells"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Upper Body / Core Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Highly effective upper body strength exercise focusing on abs/core due to immense stabilization required.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX035",
+    "canonical_name": "Suspension Flutter",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/14/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Hip Flex/Ext"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Alternating",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Core Finishers",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Stay nice and flat from back of head down to heels. Keeping body flat works the core.",
+    "documented_purpose": "Fantastic suspension core exercise targeting deep structural stabilizers.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX036",
+    "canonical_name": "Standing External Rotation Hip Stretch",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/13/"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Hip Flex/External Rot"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Mobility / Recovery",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Mobility drill to loosen tight hips and alleviate lower back pain.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX037",
+    "canonical_name": "Quad Cross-Body Foam Roller Stretch",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/13/"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Thoracic Ext"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Foam Roller"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Mobility / Recovery",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Mobility drill to improve upper back mobility, correct posture from chronic sitting, and reduce injury risk.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX038",
+    "canonical_name": "Spiderman Stretch",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/13/"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Hip Extension"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Alternating",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Movement Prep",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Movement prep exercise lengthening multiple leg muscle groups and groin to increase flexibility and speed.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX039",
+    "canonical_name": "Single-Arm Suspension Pull Up",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/13/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": true,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "5",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with heavy kettlebell power movements",
+    "observed_workout_formats": "Strength Circuits",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Very effective for developing strength and power in upper back (lats), biceps, and core.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX040",
+    "canonical_name": "Suspension Halo",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/category/training/page/13/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Multi-planar"
+    ],
+    "upper_lower": "Core",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Dynamic Stabilization",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": "Core Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Start in push up position, body flat. Take both hands around head to create the halo.",
+    "documented_purpose": "Fantastic TRX core exercise challenging multi-planar stabilization.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX041",
+    "canonical_name": "Dumbbell Floor Press",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://middleton.alloypersonaltraining.com/blog/how-small-group-training-is-individualized/"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Horiz Push"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "6, 15",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Paired with Explosive Push-Ups in Compound Sets",
+    "observed_workout_formats": "Compound Sets, Minute Intervals",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Lie on back, press weights upward.",
+    "documented_purpose": "Replaces barbell bench press to modify range of motion and preserve the anterior shoulder joint.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX042",
+    "canonical_name": "Jump Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/compound-set-workouts/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Plyometric"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "3",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Primer movement before Goblet Squat",
+    "observed_workout_formats": "Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Explosive power development utilized as the primary primer in compound sets.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX043",
+    "canonical_name": "Explosive Ball Slams",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/compound-set-workouts/"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Lats/Core"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Medicine Ball"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Dynamic Flexion",
+    "observed_rep_ranges": "3",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Primer movement before TRX Row",
+    "observed_workout_formats": "Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Explosive full-body power generation targeting anterior core and lats.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX044",
+    "canonical_name": "TRX Row",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/compound-set-workouts/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horiz Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Suspension Trainer"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "6",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Strength follow-up to Ball Slams",
+    "observed_workout_formats": "Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Horizontal pull utilizing bodyweight to safely tax the upper back.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX045",
+    "canonical_name": "Explosive Broad Jump",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/compound-set-workouts/"
+    ],
+    "primary_pattern": "Plyometric",
+    "secondary_patterns": [
+      "Horiz Bound"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "3",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Primer movement before Deadlift",
+    "observed_workout_formats": "Compound Sets",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Explosive horizontal force production.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX046",
+    "canonical_name": "Farmer's Carry",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/kettlebell-complex-workout/"
+    ],
+    "primary_pattern": "Carry",
+    "secondary_patterns": [
+      "Locomotion"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebells"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": "Anti-lateral flexion",
+    "observed_rep_ranges": "1 Lap",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Active recovery at the end of exhaustive kettlebell complexes",
+    "observed_workout_formats": "Kettlebell Complex Finisher",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Hold kettlebell by side (Farmer's) or at chest level (Racked) and walk.",
+    "documented_purpose": "Finisher mechanism for trunk strength, grip development, and total body endurance.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX047",
+    "canonical_name": "Contralateral Single Leg Deadlift",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/fab-4-workout/"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Balance"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "8",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced with Goblet Split Squats",
+    "observed_workout_formats": "Timed Circuit (Fab 4 Workout)",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Builds total body strength, improves anaerobic conditioning, challenges anti-rotation.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX048",
+    "canonical_name": "Chin Up",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/fab-4-workout/"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Vertical Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Vertical",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Pull-up Bar"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "8",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced with Burpees",
+    "observed_workout_formats": "Timed Circuit (Fab 4 Workout)",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Vertical pulling strength targeting lats and biceps.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX049",
+    "canonical_name": "Figure 8",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://alloypersonaltraining.com/weekend-warrior-65/"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Rotational Coordination"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "N/A",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": false,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Dynamic Rotation",
+    "observed_rep_ranges": "10 each way",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Sequenced within full body kettlebell circuits",
+    "observed_workout_formats": "Circuit Training",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Dynamic rotational core control and coordination.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX050",
+    "canonical_name": "Trap Bar Deadlift",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://cary.alloypersonaltraining.com/personalized-exercise-programming"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Bilateral Hinge"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Trap Bar"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Utilized alongside elevated regressions",
+    "observed_workout_formats": "Heavy Strength Blocks",
+    "documented_progressions": null,
+    "documented_regressions": "Elevated surface",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Bilateral hinging pattern used to build foundational strength while sparing lumbar shear force.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX051",
+    "canonical_name": "Box Squat",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://middleton.alloypersonaltraining.com/blog/strength-training-for-runners-and-cyclists-over-40/"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Target Depth"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Box",
+      "Dumbbell / Kettlebell"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": "Anti-flexion",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Replaces free squats for beginners/rehab clients",
+    "observed_workout_formats": "Scaled Strength Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Regression pattern for squatting to ensure depth control and joint safety.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX052",
+    "canonical_name": "Step-Up",
+    "tier": 1,
+    "alloy_observed": true,
+    "source_ids": [
+      "https://middleton.alloypersonaltraining.com/blog/how-small-group-training-is-individualized/"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Knee Dominant"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Box",
+      "Dumbbells"
+    ],
+    "strength": true,
+    "power": false,
+    "conditioning": false,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": "Replaces lunges for knee health",
+    "observed_workout_formats": "Scaled Strength Blocks",
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Used as a safer unilateral replacement for lunging to mitigate knee sheer forces.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX053",
+    "canonical_name": "Racked Kettlebell Squat",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-34",
+      "RS1-DOC"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Anterior/Racked Load"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (5x5 protocol)",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Knee-dominant station paired against a horizontal push in the '3x2' matrix.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Possible near-duplicate of Kettlebell Front Squat (Tier 1) / Goblet Squat -- rack position (single KB at shoulder) vs. goblet hold (both hands at chest) is a materially different unilateral load pattern per the source, so kept distinct. Flag for review."
+  },
+  {
+    "exercise_id": "EX054",
+    "canonical_name": "Dumbbell Bench Press",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-34"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Horizontal Push"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells",
+      "Bench"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (5x5 protocol)",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Horizontal-push station paired against a knee-dominant squat in the '3x2' matrix.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Distinct from Dumbbell Floor Press (Tier 1): bench vs. floor support changes ROM and is treated as a separate implement choice in the source material."
+  },
+  {
+    "exercise_id": "EX055",
+    "canonical_name": "3-Point Row",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-34"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horizontal Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (5x5 protocol)",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Horizontal-pull station paired against a hip-dominant single-leg deadlift in the '3x2' matrix.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Uncertain relationship to Kettlebell Bent Over Row (Tier 1, alias list includes '2 Pt Row'); '3-Point Row' vs '2-Point Row' may be a supported-stance variant (extra ground contact point) rather than the same movement. Kept distinct pending confirmation."
+  },
+  {
+    "exercise_id": "EX056",
+    "canonical_name": "Single-Leg Deadlift",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-34",
+      "RS2:citeturn13view3"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Hip Dominant"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells (implement unspecified in some sources)"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (5x5 protocol); 8/side (WW53)",
+    "observed_set_ranges": "5; 4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Hip-dominant unilateral station paired against a horizontal pull in the '3x2' matrix.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Possible duplicate of Contralateral Single Leg Deadlift (Tier 1) -- both are unilateral hip-dominant hinges from Alloy's kettlebell corpus. Kept as a separate row because 'Single-Leg Deadlift' in the 3x2 workout is dumbbell-based per Section L while the Tier-1 entry is explicitly kettlebell-based; flagged as an uncertain duplicate rather than merged."
+  },
+  {
+    "exercise_id": "EX057",
+    "canonical_name": "Single-Leg Slider Knee Tuck",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-34"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Slider",
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Core station in Group 3 of the '3x2' matrix.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX058",
+    "canonical_name": "Banded Split Squat",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-41",
+      "RS2:citeturn7view0"
+    ],
+    "primary_pattern": "Lunge",
+    "secondary_patterns": [
+      "Knee Dominant"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Resistance Band",
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "4x10 (WW106)",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Non-competing lower-body half of a superset with an upper-body horizontal pull.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX059",
+    "canonical_name": "Batwing Row",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-41"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horizontal Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "4x10 (WW106)",
+    "observed_set_ranges": "4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Non-competing upper-body half of a superset with a lower-body knee-dominant squat.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX060",
+    "canonical_name": "Power Wheel Rollout",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-21",
+      "RS2:citeturn19search0"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Power Wheel / Ab Wheel"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": "5 ('Pump It Up')",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Anti-extension core station inside a five-round full-body circuit.",
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Related to but not merged with Stability Ball Rollout (Tier 1) -- different implement (power wheel vs. stability ball / suspension trainer) named separately by the source; possible duplicate at the movement-pattern level only."
+  },
+  {
+    "exercise_id": "EX061",
+    "canonical_name": "Elevator Squat",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS1-12"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Reduced ROM Regression"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight / Box"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": "Regression of a full-depth squat: coach reduces depth (elevated/partial ROM) for a client with joint stiffness.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Named only as a regression target, not as a standalone prescribed workout entry; equipment/rep data not evidenced."
+  },
+  {
+    "exercise_id": "EX062",
+    "canonical_name": "Deficit Push-Up",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS1-12"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Increased ROM Progression"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight",
+      "Elevated handles"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progression of the standard push-up via increased anatomical depth for stretch-mediated hypertrophy.",
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Named only as a progression target; equipment/rep data not evidenced."
+  },
+  {
+    "exercise_id": "EX063",
+    "canonical_name": "Explosive Push-Up",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-35",
+      "H2:citeturn25search3"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Plyometric"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": false,
+    "power": true,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "3 explosive reps into 6 heavy Floor Press reps",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Explosive primer preceding a heavy strength movement for the same prime movers (compound-set format).",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Also independently named as a documented progression target of Push-Up in Harvest 1's own 'progressions' field for that row -- cross-corroborated across two independent source documents, which is why it is promoted to a full Tier-2 row rather than left as free text."
+  },
+  {
+    "exercise_id": "EX064",
+    "canonical_name": "Kettlebell Swing (Two-Arm)",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn26search1",
+      "H2:citeturn33search5"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Core Stabilization"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": true,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "20 (WW28 tri-set)",
+    "observed_set_ranges": "3-4",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Deliberately kept distinct from Single-Arm Kettlebell Swing (Tier 1) per Harvest 2's explicit dedup note that Alloy itself treats the two as different exercises, not a stance variant of the same row."
+  },
+  {
+    "exercise_id": "EX065",
+    "canonical_name": "Dumbbell Romanian Deadlift",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn14search0",
+      "H2:citeturn30view0"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Posterior Chain"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (WW25 complex); 1-8 ascending (WW90)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX066",
+    "canonical_name": "Dumbbell Bent-Over Row",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn14search0",
+      "H2:citeturn30view0"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horizontal Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (WW25 complex); 1-8 ascending (WW90)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Distinct from Kettlebell Bent Over Row (Tier 1) by implement; the two rows are not merged because the source material tracks implement as a first-class distinguishing attribute."
+  },
+  {
+    "exercise_id": "EX067",
+    "canonical_name": "Pull-Up",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search0",
+      "RS2:citeturn6view3"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Vertical Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Vertical",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Pull-up Bar"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5 (WW56); 10 (WW94)",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Kept distinct from Chin-Up (Tier 1) -- pronated vs. supinated grip is treated as a separate named exercise across the corpus, never used interchangeably in the same workout record."
+  },
+  {
+    "exercise_id": "EX068",
+    "canonical_name": "2-Point Row",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search5",
+      "RS2:citeturn24search4"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horizontal Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "8 (Post-Halloween Weekend Workout, Circuit 2)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Horizontal pulling exercise involving lats, upper back, biceps and core.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX069",
+    "canonical_name": "Chest-Supported Row",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS2:citeturn32view4"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Horizontal Pull"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bench",
+      "Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX070",
+    "canonical_name": "See-Saw Incline Dumbbell Press",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS2:citeturn32view4"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Incline Press, Alternating"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral (alternating)",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells",
+      "Incline Bench"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX071",
+    "canonical_name": "Half-Kneeling Single-Arm Kettlebell Overhead Press",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn14search0",
+      "RS2:citeturn26search0"
+    ],
+    "primary_pattern": "Press",
+    "secondary_patterns": [
+      "Vertical Push, Kneeling Stance"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": "Vertical",
+    "unilateral_bilateral": "Unilateral",
+    "stance": "Half-kneeling / tall-kneeling",
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "10-12 (WW34); 10/side (WW39)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Kept distinct from Kettlebell Overhead Press (Tier 1) because the kneeling stance is explicitly named and materially changes the stability demand; Tier-1 row does not specify stance."
+  },
+  {
+    "exercise_id": "EX072",
+    "canonical_name": "Thruster",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn14search3"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Squat to Press"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells or Kettlebell (implement ambiguous across sources)"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "1-8 ascending ladder (WW90)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Uncertain relationship to Single Arm Kettlebell Thruster (Tier 1): WW90's 'thruster' is not explicitly marked single-arm, and implement is not stated. Flagged as a possible duplicate/variant rather than merged."
+  },
+  {
+    "exercise_id": "EX073",
+    "canonical_name": "Kettlebell Suitcase Deadlift",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search8"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Asymmetric Load"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-lateral flexion",
+    "observed_rep_ranges": "part of 2019 Week 19 complex (reps user-scaled)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Distinct from Kettlebell Deadlift (Tier 1, single-or-double-arm) by the asymmetric suitcase load position named explicitly in-sequence."
+  },
+  {
+    "exercise_id": "EX074",
+    "canonical_name": "Double-Kettlebell Squat",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search8"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Bilateral Load, Front-Rack"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell (x2)"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX075",
+    "canonical_name": "Knee Plank",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view2"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Traditional Plank.",
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX076",
+    "canonical_name": "Traditional Plank",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "H2:citeturn28view2",
+      "RS2:citeturn30view5"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Marching Plank.",
+    "documented_regressions": "Regresses to Knee Plank.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Maintain neutral spine; prevent hip rocking.",
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX077",
+    "canonical_name": "Marching Plank",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view2"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension / Anti-Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension / Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Plank with a Reach.",
+    "documented_regressions": "Regresses to Traditional Plank.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX078",
+    "canonical_name": "Plank with a Reach",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view2"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Around-the-World Plank.",
+    "documented_regressions": "Regresses to Marching Plank.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Coordinate breathing with the reach.",
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX079",
+    "canonical_name": "Around-the-World Plank",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view2"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Rotation, Multi-planar"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": "Regresses to Plank with a Reach.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "Named 'Around-the-World' also appears as a standalone rotational drill (see unresolved_questions.md) distinct from this plank-family progression step; not merged."
+  },
+  {
+    "exercise_id": "EX080",
+    "canonical_name": "Box Hip Bridge",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view1"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Posterior Chain, Supported ROM"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Box",
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Limited-ROM Kettlebell Deadlift.",
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Pull shoulders toward back pockets; create a stable foot base; reach hips back; keep weight on heels; maintain neutral spine; feel the hamstrings.",
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX081",
+    "canonical_name": "Limited-ROM Kettlebell Deadlift",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn28view1"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Posterior Chain, Reduced ROM"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Kettlebell Deadlift.",
+    "documented_regressions": "Regresses to Box Hip Bridge.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Pull shoulders toward back pockets; create a stable foot base; reach hips back; keep weight on heels; maintain neutral spine; feel the hamstrings.",
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX082",
+    "canonical_name": "Barbell Deadlift",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "H2:citeturn28view1",
+      "RS2:citeturn15search4"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Posterior Chain, Bilateral Hinge"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Barbell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": "Regresses to Kettlebell Deadlift.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": "Pull shoulders toward back pockets; create a stable foot base; reach hips back; keep weight on heels; maintain neutral spine; feel the hamstrings.",
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "RAW_STRONG (Section I) reports 0% barbell frequency in a 30-workout equipment-frequency sample of general-population metabolic workouts, while this progression chain and WW81 document barbell use elsewhere in the corpus -- flagged as a real cross-document tension, not resolved by us."
+  },
+  {
+    "exercise_id": "EX083",
+    "canonical_name": "Quadruped Isometric Hold",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn26search0"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Isometric, Anti-Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Contralateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-rotation / Anti-extension",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Bear Crawls.",
+    "documented_regressions": "Regresses to Bird Dogs.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": "'Bird Dogs' at the base of this chain is treated as an alias of the Tier-1 'Bird Dog Plank' row given matching anti-rotation/anti-extension purpose language; see alias table."
+  },
+  {
+    "exercise_id": "EX084",
+    "canonical_name": "Bear Crawl",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn26search0",
+      "H2:citeturn19search8"
+    ],
+    "primary_pattern": "Locomotion",
+    "secondary_patterns": [
+      "Contralateral Crawl"
+    ],
+    "upper_lower": "Full",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Contralateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": "Progresses to Spider Crawl (increased distance introduced only after earlier steps are established).",
+    "documented_regressions": "Regresses to Quadruped Isometric Hold.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX085",
+    "canonical_name": "Spider Crawl",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn26search0"
+    ],
+    "primary_pattern": "Locomotion",
+    "secondary_patterns": [
+      "Contralateral Crawl, Rotational"
+    ],
+    "upper_lower": "Full",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Contralateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": "Regresses to Bear Crawl.",
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX086",
+    "canonical_name": "Turkish Get-Up",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "H2:citeturn19search8"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Multi-planar, Complex"
+    ],
+    "upper_lower": "Full",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX087",
+    "canonical_name": "Get-Up Sit-Up",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view3"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Rotational Sit-Up"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "~8/side (WW53, indexed text ambiguous)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Uncertain relationship to Turkish Get-Up -- may be a simplified, floor-based derivative rather than the same exercise. Kept distinct."
+  },
+  {
+    "exercise_id": "EX088",
+    "canonical_name": "Sit-Out",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view3",
+      "RS2:citeturn13view3"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Rotational"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Alternating",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "50 (WW51 ASAP)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX089",
+    "canonical_name": "Single-Leg Hip Bridge",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view3"
+    ],
+    "primary_pattern": "Hinge",
+    "secondary_patterns": [
+      "Glute Isolation, Unilateral"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "10/side (WW49)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX090",
+    "canonical_name": "Deadbug",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn26search3",
+      "RS2:citeturn19search8"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Extension / Anti-Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight or Dumbbells"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-extension / Anti-rotation",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX091",
+    "canonical_name": "Pallof Press",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS2:citeturn5view1"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Anti-Rotation"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Cable / Band"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Anti-rotation",
+    "observed_rep_ranges": "12",
+    "observed_set_ranges": "3",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": "Anti-rotation core finisher in the historical three-exercise mini-circuit model.",
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX092",
+    "canonical_name": "Inchworm",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn26search4"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Movement Prep, Posterior Chain Stretch"
+    ],
+    "upper_lower": "Full",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": true,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX093",
+    "canonical_name": "Jumping Jacks",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view3",
+      "RS2:citeturn30view6"
+    ],
+    "primary_pattern": "Conditioning",
+    "secondary_patterns": [
+      "Full-Body Cyclic"
+    ],
+    "upper_lower": "Full",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": true,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "200 (WW51 ASAP)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX094",
+    "canonical_name": "Band Pull-Apart",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view0",
+      "RS1-12"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Scapular Retraction, Warm-up Rehearsal"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Resistance Band"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": true,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX095",
+    "canonical_name": "Half-Kneeling Pulldown",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn13view0"
+    ],
+    "primary_pattern": "Pull",
+    "secondary_patterns": [
+      "Vertical Pull, Kneeling Stance"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Pull",
+    "horizontal_vertical": "Vertical",
+    "unilateral_bilateral": null,
+    "stance": "Half-kneeling",
+    "plane": null,
+    "equipment_requirements": [
+      "Cable / Band"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX096",
+    "canonical_name": "Single-Arm Dumbbell Bench Press",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search0",
+      "RS2:citeturn19search9"
+    ],
+    "primary_pattern": "Push",
+    "secondary_patterns": [
+      "Horizontal Push, Unilateral"
+    ],
+    "upper_lower": "Upper",
+    "push_pull": "Push",
+    "horizontal_vertical": "Horizontal",
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Dumbbells",
+      "Bench"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "5/side (WW56, 'Pump It Up')",
+    "observed_set_ranges": "5",
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX097",
+    "canonical_name": "Single-Leg Squat to Box",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search9"
+    ],
+    "primary_pattern": "Squat",
+    "secondary_patterns": [
+      "Knee Dominant, Supported Depth"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": "Push",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Box",
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": "4x8 (Sept. 16, 2016 superset)",
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX098",
+    "canonical_name": "Kettlebell Halo",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn26search4"
+    ],
+    "primary_pattern": "Core",
+    "secondary_patterns": [
+      "Multi-planar, Shoulder Circuit"
+    ],
+    "upper_lower": "Core",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": "Dynamic stabilization",
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": "Distinct from Suspension Halo (Tier 1) -- kettlebell-in-hand halo vs. suspension-trainer push-up-position halo are different implements/setups per the source."
+  },
+  {
+    "exercise_id": "EX099",
+    "canonical_name": "Kettlebell Clean-to-Press",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn26search0"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Clean to Vertical Push"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Hybrid",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Unilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell or Medicine Ball"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX100",
+    "canonical_name": "Squat Clean",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS2:citeturn19search4"
+    ],
+    "primary_pattern": "Full Body",
+    "secondary_patterns": [
+      "Explosive Hinge to Squat"
+    ],
+    "upper_lower": "Full",
+    "push_pull": "Pull",
+    "horizontal_vertical": null,
+    "unilateral_bilateral": "Bilateral",
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Kettlebell"
+    ],
+    "strength": null,
+    "power": true,
+    "conditioning": null,
+    "mobility": null,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_OBSERVED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX101",
+    "canonical_name": "Ankle Rocks",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS1-12"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Joint Articulation"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": true,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX102",
+    "canonical_name": "Hip Circles",
+    "tier": 2,
+    "alloy_observed": false,
+    "source_ids": [
+      "RS1-12"
+    ],
+    "primary_pattern": "Mobility",
+    "secondary_patterns": [
+      "Joint Articulation"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Bodyweight"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": null,
+    "mobility": true,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": null,
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  },
+  {
+    "exercise_id": "EX103",
+    "canonical_name": "Stationary Bike (Warm-up)",
+    "tier": 2,
+    "alloy_observed": true,
+    "source_ids": [
+      "RS1-12",
+      "RS2:citeturn30view6"
+    ],
+    "primary_pattern": "Conditioning",
+    "secondary_patterns": [
+      "General Thermogenesis"
+    ],
+    "upper_lower": "Lower",
+    "push_pull": null,
+    "horizontal_vertical": null,
+    "unilateral_bilateral": null,
+    "stance": null,
+    "plane": null,
+    "equipment_requirements": [
+      "Stationary Bike"
+    ],
+    "strength": null,
+    "power": null,
+    "conditioning": true,
+    "mobility": true,
+    "core_function": null,
+    "observed_rep_ranges": null,
+    "observed_set_ranges": null,
+    "observed_time_prescriptions": "2-3 minutes",
+    "observed_pairings": null,
+    "observed_workout_formats": null,
+    "documented_progressions": null,
+    "documented_regressions": null,
+    "documented_substitutions": null,
+    "documented_coaching_cues": null,
+    "documented_purpose": null,
+    "evidence_classification": "ALLOY_DOCUMENTED",
+    "notes": null
+  }
+]

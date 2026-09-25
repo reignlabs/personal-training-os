@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal Training OS | Alloy-Inspired — SYSTEM_METADATA layer (reserved, unpopulated in V0)",
+  "description": "This layer exists so the project's own instructions can be honored: 'Create a separate layer for SYSTEM_METADATA that we can add later without contaminating source-derived evidence.' Every field here is SYSTEM_DESIGN-class by definition (a rule this application creates, not an Alloy fact). It is defined but deliberately left EMPTY in this V0 delivery -- no rows exist yet in system_metadata.json. Populating it is future work for the Personalization Rules / Progression System layers described in the project's modular architecture, and must never be merged back into exercise_dataset.json.",
+  "type": "object",
+  "required": ["exercise_id"],
+  "properties": {
+    "exercise_id": {
+      "type": "string",
+      "pattern": "^EX[0-9]{3}$",
+      "description": "Foreign key into exercise_dataset.json. One SYSTEM_METADATA row per exercise, added only when this application actually needs that field for the generator -- not pre-filled speculatively."
+    },
+    "difficulty": {
+      "type": ["integer", "null"],
+      "description": "System-assigned difficulty tier. NOT evidence-derived (Alloy's public material does not publish a difficulty scale). Must be explicitly authored later, per the project's HEALTH/CONSTRAINT and PRODUCT PRINCIPLE rules, never silently defaulted."
+    },
+    "contraindications": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "System-authored movement exclusions. Per the project's HEALTH/CONSTRAINT RULE, this application never independently diagnoses conditions or infers medical restrictions -- entries here may only encode constraints the USER (or their clinician/trainer) has explicitly stated as inputs, never a system inference from the exercise's biomechanics."
+    },
+    "personal_suitability": {
+      "type": "object",
+      "description": "Placeholder for a future per-user suitability score/flag. Explicitly out of scope for this data-engineering pass."
+    },
+    "goal_scores": {
+      "type": "object",
+      "description": "Placeholder for future goal-alignment scoring (e.g. hypertrophy / fat-loss / longevity weighting). Explicitly out of scope for this pass -- the project instructions list this under 'DO NOT yet invent' items."
+    },
+    "weakness_scores": {
+      "type": "object",
+      "description": "Placeholder for future weakness/priority-area scoring. Same scope note as goal_scores."
+    },
+    "progression_trees": {
+      "type": "object",
+      "description": "Placeholder for a future system-authored progression tree (as opposed to documented_progressions/documented_regressions in the canonical exercise schema, which are Alloy-sourced facts). A progression TREE that spans multiple exercises and encodes this application's own sequencing logic is a SYSTEM_DESIGN artifact and belongs here, never written into the source-derived fields."
+    }
+  },
+  "explicit_non_population_note": "system_metadata.json is NOT included in this delivery as a data file because it would contain zero rows -- there is nothing yet to contaminate. This schema file is the deliverable for this layer in V0."
+}

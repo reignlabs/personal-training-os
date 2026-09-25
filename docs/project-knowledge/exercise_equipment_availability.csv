@@ -1,0 +1,104 @@
+exercise_id,canonical_name,primary_pattern,equipment_requirements,availability_status,reasoning
+EX001,Push-Up,Push,Bodyweight; Suspension Trainer; Dumbbells,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX002,Jump Lunges,Lunge,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX003,Bird Dog Plank,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX004,Touch Down Squats,Squat,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX005,Yard Sprint,Locomotion,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX006,Burpee,Full Body,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX007,Overhead Squat,Squat,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX008,Single-Arm Kettlebell Swing,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX009,Single-Arm Kettlebell Clean,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX010,Squat to Cable Row,Full Body,Cable / Suspension,UNKNOWN,"Requires either an adjustable-height cable pulley or a suspension trainer. TRX not present. The user-stated cable stations are (per user description) fixed single-purpose selectorized machines (chest press / row / shoulder press / leg curl / squat); whether the 'row' station has a low, freely-angled pulley suitable for this combined squat-to-row movement is not confirmed. Needs user confirmation of cable-station type."
+EX011,Kettlebell Deadlift,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX012,Goblet Squat,Squat,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX013,Goblet Split Squat,Lunge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX014,Kettlebell Bent Over Row,Pull,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX015,Kettlebell Overhead Press,Press,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX016,Single Arm Kettlebell Thruster,Full Body,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX017,Kettlebell Suitcase Lunge,Lunge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX018,Kettlebell Front Squat,Squat,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX019,Swing to Squat,Full Body,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX020,Speed Squat,Squat,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX021,Assisted Single-Leg Lowering,Mobility,Roller / Bodyweight,AVAILABLE,"Equipment list is an OR ('Roller / Bodyweight'). Foam roller not confirmed present, but the bodyweight-only version of this assisted mobility drill is executable without it (reduced assistance)."
+EX022,Half Kneeling Low to High Chop,Core,Cable / Band,UNKNOWN,Half-kneeling chop needs an adjustable-height cable column or a resistance band. Band not present. Whether any user-stated cable station has a free adjustable pulley (vs. a fixed single-plane machine) is unconfirmed — needs user clarification.
+EX023,Lateral Band Walk,Mobility,Resistance Band,NOT_AVAILABLE,Requires a resistance band. No band visible or stated.
+EX024,Single-Arm Kettlebell Snatch,Full Body,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX025,Plank With Shoulder Touch,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX026,Suspension Ys,Pull,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX027,Assisted Squats,Squat,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX028,Suspension Hip Bridge to Leg Curl,Hinge,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX029,Stability Ball Rollout,Core,Stability Ball; Suspension Trainer,AVAILABLE,Equipment list offers Stability Ball OR Suspension Trainer as alternate implements for this rollout. Stability ball is confirmed present.
+EX030,Skaters,Plyometric,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX031,Reverse Lunges,Lunge,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX032,Mountain Climbers,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX033,Box Row,Pull,Box / Dumbbells,AVAILABLE_WITH_SUBSTITUTION,Box Row needs a support surface (box) plus a dumbbell. No box present; a flat bench (EQ005) can substitute as the support surface.
+EX034,Renegade Row,Pull,Dumbbells / Kettlebells,AVAILABLE,'Dumbbells / Kettlebells' is directly available in confirmed inventory.
+EX035,Suspension Flutter,Core,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX036,Standing External Rotation Hip Stretch,Mobility,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX037,Quad Cross-Body Foam Roller Stretch,Mobility,Foam Roller,NOT_AVAILABLE,Requires a foam roller. None visible or stated.
+EX038,Spiderman Stretch,Mobility,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX039,Single-Arm Suspension Pull Up,Pull,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX040,Suspension Halo,Core,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX041,Dumbbell Floor Press,Push,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX042,Jump Squat,Squat,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX043,Explosive Ball Slams,Full Body,Medicine Ball,NOT_AVAILABLE,Requires a medicine ball. None visible or stated.
+EX044,TRX Row,Pull,Suspension Trainer,NOT_AVAILABLE,"Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+EX045,Explosive Broad Jump,Plyometric,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX046,Farmer's Carry,Carry,Kettlebells,AVAILABLE,'Kettlebells' is directly available in confirmed inventory.
+EX047,Contralateral Single Leg Deadlift,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX048,Chin Up,Pull,Pull-up Bar,AVAILABLE,'Pull-up Bar' is directly available in confirmed inventory.
+EX049,Figure 8,Core,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX050,Trap Bar Deadlift,Hinge,Trap Bar,AVAILABLE_WITH_SUBSTITUTION,"Requires a trap/hex bar, not present. A standard Olympic barbell (confirmed present) can substitute for a conventional/barbell deadlift, but this changes bar path, grip, and load mechanics versus a true trap-bar deadlift — not biomechanically equivalent."
+EX051,Box Squat,Squat,Box; Dumbbell / Kettlebell,AVAILABLE_WITH_SUBSTITUTION,"Box Squat needs a box (or equivalent riser) plus a dumbbell/kettlebell. No box present; a flat bench (EQ005) can substitute, but bench height/stability for a box-squat sit-back is not confirmed appropriate — flag as a safety/fit caveat."
+EX052,Step-Up,Lunge,Box; Dumbbells,AVAILABLE_WITH_SUBSTITUTION,Step-Up needs an elevated surface (box) plus optional dumbbells. No box present; a flat bench (EQ005) is a standard substitute.
+EX053,Racked Kettlebell Squat,Squat,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX054,Dumbbell Bench Press,Push,Dumbbells; Bench,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX055,3-Point Row,Pull,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX056,Single-Leg Deadlift,Hinge,Dumbbells (implement unspecified in some sources),AVAILABLE,'Dumbbells (implement unspecified in some sources)' is directly available in confirmed inventory.
+EX057,Single-Leg Slider Knee Tuck,Core,Slider; Bodyweight,NOT_AVAILABLE,"Requires a slider disc (with bodyweight as the load, not an alternate implement). No slider visible or stated, and the carpeted gym floor is not confirmed suitable for an improvised towel-slide substitute."
+EX058,Banded Split Squat,Lunge,Resistance Band; Bodyweight,AVAILABLE_WITH_SUBSTITUTION,"Banded Split Squat needs a resistance band; none present. The unloaded bodyweight split squat (dropping the band) is executable, but this removes the added resistance the exercise is specifically designed around."
+EX059,Batwing Row,Pull,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX060,Power Wheel Rollout,Core,Power Wheel / Ab Wheel,NOT_AVAILABLE,"Requires a power wheel / ab wheel. None visible or stated. (Note: Stability Ball Rollout, EX029, is already AVAILABLE as a related anti-extension core movement in this library, but is a distinct exercise, not a substitution for this one.)"
+EX061,Elevator Squat,Squat,Bodyweight / Box,AVAILABLE,Equipment list is an OR ('Bodyweight / Box'). The bodyweight-only elevator squat is fully executable without a box.
+EX062,Deficit Push-Up,Push,Bodyweight; Elevated handles,AVAILABLE_WITH_SUBSTITUTION,Deficit Push-Up needs bodyweight plus elevated handles. No dedicated push-up handles/parallettes confirmed at the right (low) height; two matched hex dumbbells (confirmed present) are a common practical substitute for hand elevation.
+EX063,Explosive Push-Up,Push,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX064,Kettlebell Swing (Two-Arm),Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX065,Dumbbell Romanian Deadlift,Hinge,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX066,Dumbbell Bent-Over Row,Pull,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX067,Pull-Up,Pull,Pull-up Bar,AVAILABLE,'Pull-up Bar' is directly available in confirmed inventory.
+EX068,2-Point Row,Pull,Dumbbells,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX069,Chest-Supported Row,Pull,Bench; Dumbbells,AVAILABLE,'Bench' is directly available in confirmed inventory.
+EX070,See-Saw Incline Dumbbell Press,Push,Dumbbells; Incline Bench,AVAILABLE,"Needs dumbbells (confirmed) plus an incline bench. EQ011's incline capability is LIKELY based on its two-piece seat/back pad design, but not confirmed from a photo showing it inclined — flag this dependency."
+EX071,Half-Kneeling Single-Arm Kettlebell Overhead Press,Press,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX072,Thruster,Full Body,Dumbbells or Kettlebell (implement ambiguous across sources),AVAILABLE,'Dumbbells or Kettlebell (implement ambiguous across sources)' is directly available in confirmed inventory.
+EX073,Kettlebell Suitcase Deadlift,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX074,Double-Kettlebell Squat,Squat,Kettlebell (x2),AVAILABLE,'Kettlebell (x2)' is directly available in confirmed inventory.
+EX075,Knee Plank,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX076,Traditional Plank,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX077,Marching Plank,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX078,Plank with a Reach,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX079,Around-the-World Plank,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX080,Box Hip Bridge,Hinge,Box; Bodyweight,AVAILABLE_WITH_SUBSTITUTION,Box Hip Bridge needs a box to elevate the working foot; none present. A flat bench (EQ005) is a standard substitute.
+EX081,Limited-ROM Kettlebell Deadlift,Hinge,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX082,Barbell Deadlift,Hinge,Barbell,AVAILABLE,'Barbell' is directly available in confirmed inventory.
+EX083,Quadruped Isometric Hold,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX084,Bear Crawl,Locomotion,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX085,Spider Crawl,Locomotion,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX086,Turkish Get-Up,Full Body,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX087,Get-Up Sit-Up,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX088,Sit-Out,Core,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX089,Single-Leg Hip Bridge,Hinge,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX090,Deadbug,Core,Bodyweight or Dumbbells,AVAILABLE,'Bodyweight or Dumbbells' is directly available in confirmed inventory.
+EX091,Pallof Press,Core,Cable / Band,UNKNOWN,"Pallof Press needs an adjustable-height anti-rotation cable pull or a band. Band not present. Whether any user-stated cable station (fixed single-purpose machines, per user description) can be used perpendicular to its handle path for this movement is unconfirmed — needs user clarification."
+EX092,Inchworm,Mobility,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX093,Jumping Jacks,Conditioning,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX094,Band Pull-Apart,Pull,Resistance Band,NOT_AVAILABLE,Requires a resistance band. None visible or stated.
+EX095,Half-Kneeling Pulldown,Pull,Cable / Band,NOT_AVAILABLE,"Half-Kneeling Pulldown needs a cable column with an overhead/high pulley position. The user-stated cable stations are chest press, row, shoulder press, hamstring leg curl, and squat — no pulldown-specific or adjustable-height station was named. A pull-up bar is present but is a different (unassisted, bodyweight) movement, not a substitute for a cable pulldown's loading profile."
+EX096,Single-Arm Dumbbell Bench Press,Push,Dumbbells; Bench,AVAILABLE,'Dumbbells' is directly available in confirmed inventory.
+EX097,Single-Leg Squat to Box,Squat,Box; Bodyweight,AVAILABLE_WITH_SUBSTITUTION,"Single-Leg Squat to Box needs a box; none present. A flat bench (EQ005) is a standard substitute, though bench height may not match an ideal single-leg-squat depth."
+EX098,Kettlebell Halo,Core,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX099,Kettlebell Clean-to-Press,Full Body,Kettlebell or Medicine Ball,AVAILABLE,'Kettlebell or Medicine Ball' is directly available in confirmed inventory.
+EX100,Squat Clean,Full Body,Kettlebell,AVAILABLE,'Kettlebell' is directly available in confirmed inventory.
+EX101,Ankle Rocks,Mobility,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX102,Hip Circles,Mobility,Bodyweight,AVAILABLE,'Bodyweight' is directly available in confirmed inventory.
+EX103,Stationary Bike (Warm-up),Conditioning,Stationary Bike,AVAILABLE,'Stationary Bike' is directly available in confirmed inventory.

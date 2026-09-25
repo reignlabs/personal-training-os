@@ -1,0 +1,553 @@
+# file: PERSONAL_user_profile.yaml
+# class: PERSONAL
+# version: USER_PROFILE_V0, draft 0.1 (2026-09-23)
+# status: DRAFT. Six BLOCKING_V0 questions open (B1-B6). Fields they control are marked PENDING_B#.
+# supersedes: Phase 1 template of the same name (chat 00)
+# companion: PERSONAL_constraints.yaml (constraint definitions; this file only references IDs, D-012)
+#
+# HOW TO READ THIS FILE
+#  item_class (the classification you asked for, plus one addition):
+#    HARD_CONSTRAINT | SOFT_CONSTRAINT | CURRENT_CAPABILITY | FUNCTIONAL_LIMITATION | ASYMMETRY |
+#    MONITORING_VARIABLE | PREFERENCE | GOAL | OPEN_QUESTION |
+#    CONTEXT  <- added (D-014): a health fact kept for explanation records only. It has NO effect on selection.
+#  evidence_label: copied unchanged from the Health handoff (DX, TEST, CLIN, PR-SYM, PR-FUNC, PR-GOAL, HIST, CUR, UNC, UNK, AI-PLAN).
+#  UNKNOWN never means "normal" or "no problem". The generator must treat UNKNOWN as "not established".
+#  Alloy evidence classes (ALLOY_DOCUMENTED etc.) do not apply to personal data. Nothing here is an Alloy claim.
+#  Tags marked SYSTEM_DESIGN are proposals this project authored, not facts about you.
+#
+# SOURCES
+#  HH   = Personal_Training_Health_Profile_v0_1.md (Health Project handoff, 2026-09). Authoritative for medical context.
+#         Items inside HH labeled AI-PLAN were written by Claude and are NOT clinician or trainer guidance.
+#  EQM  = chat "02 | EQUIPMENT MODEL" outputs (equipment_library.json, 2026-09-23)
+#  ARCH = chat "00 | PROJECT ARCHITECTURE" (charter, APP_V0_SCOPE)
+#  RES  = RAW Alloy research files R1-R4 (only where noted)
+
+subject:
+  name: Nelson
+  sex: male
+  age: 41
+  height: "5'9\""
+  location: "Kirkland, WA"
+  experience_self_description:
+    - {value: "intermediate-level lifter", evidence_label: PR, date: 2026-07, source: "HH §12"}
+    - {value: "beginner/intermediate for core; 'getting back into things'", evidence_label: PR, date: 2026-09, source: "HH §12"}
+  resistance_training_clearance:
+    value: "Cleared for resistance training by treating neurologist (Dr. Preston)"
+    evidence_label: PR
+    written_record: none
+    scope_and_limits: UNKNOWN
+    item_class: CONTEXT
+    open_question: OQ-H01
+
+# ─────────────────────────────────────────────────────────────
+GOALS:
+  - id: G-01
+    goal: "Preserve lean mass during the current fat-loss phase"
+    categories: [body_composition, primary]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §1.6, §11.1"
+    user_priority_statement: "non-negotiable"
+    status: ACTIVE
+  - id: G-02
+    goal: "Reach ~160 lb (started ~182 lb, 178 lb as of Aug 2026)"
+    categories: [body_composition]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §2.5, §11.1"
+    target_date: UNKNOWN   # the 2026-10-01 date in older documents is marked possibly inactive (HH §11.2)
+    generator_role: "indirect; nutrition and medication are outside V0"
+    status: ACTIVE
+  - id: G-03
+    goal: "Build muscle / lean out"
+    categories: [body_composition, hypertrophy]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §11.1 (stated July 2026 when seeking a trainer)"
+    relation_to_G-01: "UNKNOWN whether the intent during the deficit is to build or to preserve (PENDING_B1)"
+    status: ACTIVE
+  - id: G-04
+    goal: "Fuller, more defined arms and shoulders by Halloween week 2026"
+    categories: [aesthetic, hypertrophy]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §11.1"
+    time_boxed: true
+    review_after: 2026-11-01
+    current_delivery_vehicle: "DailyArms home program (HH §12)"
+    apartment_generator_share: PENDING_B2
+    status: ACTIVE
+  - id: G-05
+    goal: "Biceps prioritized for heavier loading; biceps element on shoulder days"
+    categories: [aesthetic, strength]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §11.1, §12"
+    status: ACTIVE
+  - id: G-06
+    goal: "Right triceps treated as 'the weak link'"
+    categories: [asymmetry]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §5, §11.1"
+    important_distinction: "'50% recovery would be a win' was said about response to MG treatment, not about a training target."
+    training_intent: PENDING_B5   # develop | maintain | train around it | undecided
+    status: ACTIVE
+  - id: G-07
+    goal: "Consistent core training (DailyAbs, daily intent)"
+    categories: [core]
+    item_class: GOAL
+    evidence_label: PR-GOAL
+    source: "HH §11.1"
+    started: false   # as of 2026-09
+    status: ACTIVE_NOT_STARTED
+  - id: G-08
+    goal: "Jawline / facial definition"
+    item_class: CONTEXT
+    evidence_label: PR-GOAL
+    source: "HH §11.1"
+    note: "Outcome of weight loss, not a training goal. No generator effect."
+
+# ─────────────────────────────────────────────────────────────
+GOAL_PRIORITIES:
+  established_ranking:
+    - {rank: 1, goal: G-01, basis: "only goal the user explicitly ranked (non-negotiable)"}
+  unranked: [G-02, G-03, G-04, G-05, G-06, G-07]   # PENDING_B1
+  by_category:
+    primary_training_goals: [G-01, "others PENDING_B1"]
+    secondary_training_goals: PENDING_B1
+    aesthetic_priorities: [G-04 arms and shoulders, G-05 biceps]
+    strength_priorities: [G-05 biceps loading]   # no other strength priority stated
+    functional_priorities: UNKNOWN              # none stated anywhere
+    body_composition_goals: [G-01, G-02, G-03]
+    performance_goals: UNKNOWN                  # none stated anywhere
+  not_goals_for_this_system:
+    - "Restoring right triceps strength as a rehabilitation objective (no rehab protocols, per project rule)"
+
+# ─────────────────────────────────────────────────────────────
+TRAINING_ENVIRONMENTS:
+  - env_id: ENV-ALLOY
+    name: "Alloy Fitness, Juanita Village, Kirkland"
+    role: "Trainer-led. Not generated by this system. Logged as training history (user instruction)."
+    schedule: "Mon/Wed/Fri, 4 pm onward (HH §12, CUR)"
+    format: "circuit weight training (HH §12)"
+    content_programmed: UNKNOWN
+    coach_modifications: "Trainer 'programs around arm limitation and MG' (PR). Specifics UNKNOWN."
+    inventory: "UNKNOWN for this studio. Alloy corporate material names kettlebells, dumbbells, TRX, barbells, bikes (RES, ALLOY_DOCUMENTED about Alloy generally, not a verified inventory of this studio)."
+  - env_id: ENV-APT
+    name: "Apartment building gym"
+    role: "PRIMARY generation target for Generator v0.1 (one gym in V0, ARCH)"
+    inventory: "EQM equipment_library (EQ001-EQ021)"
+    inventory_open_items: "rack bar path (free vs guided); cable stations fixed vs adjustable pulley; incline bench; dumbbell top weight (tracked in EQM, not here)"
+    profile_relevant_notes:
+      - "Contains a dip station (EQ003); HC-01 applies."
+      - "Contains cable chest press (EQ017) and cable shoulder press (EQ019); relevant to SC-03 decision."
+    currency: "in use; resolves HH open question 19"
+  - env_id: ENV-HOME
+    name: "Home (apartment unit)"
+    role: "DailyArms / DailyAbs. Out of V0 generation scope. Logged as OTHER training."
+    inventory: "PowerBlock ~10-80 lb/hand (plates shared with EZ bar; switching is slow); kettlebells ~25 and ~33 lb; flat bench (not always out); yoga mat (HH §12, PR)"
+  - env_id: ENV-TRAVEL
+    role: "Out of V0 scope. Treated as a frequency disruption."
+    frequency: "2-3 trips per month (HH §12, PR)"
+
+# ─────────────────────────────────────────────────────────────
+TRAINING_FREQUENCY:
+  alloy_studio_sessions:
+    days: [mon, wed, fri]
+    time: "16:00+"
+    fixed_schedule: true
+    counts_toward_history_and_weekly_exposure: REQUIRED   # user instruction; D-016
+    logging_granularity: PENDING_B6
+  apartment_gym_sessions:
+    sessions_per_week: PENDING_B2
+    days: FLEXIBLE   # never assume fixed days (user instruction)
+    time_of_day: UNKNOWN
+  other_training:
+    - {program: DailyArms, env: ENV-HOME, status: "built 2026-09; started UNKNOWN", frequency_note: "user says arms can be trained >3 days/week (PR)", counts_toward_history: PENDING_B2}
+    - {program: DailyAbs, env: ENV-HOME, status: "not started as of 2026-09", intended_frequency: daily, counts_toward_history: PENDING_B2}
+    - {program: "walking / cardio", status: UNKNOWN}
+  rest_recovery:
+    preferred_rest_days: UNKNOWN
+    between_session_recovery_data: UNKNOWN   # HH §13
+    note: "Spacing rules between an apartment session and an Alloy session are SYSTEM_DESIGN engine rules (Phase 5), not profile facts."
+  disruptions:
+    - "Travel 2-3 trips/month (PR)"
+
+# ─────────────────────────────────────────────────────────────
+# MOVEMENT_PROFILE
+# Field key: cap = CURRENT_CAPABILITY | lim = KNOWN_LIMITATION | asym = KNOWN_ASYMMETRY | coach = KNOWN_COACH_MODIFICATION
+#            hard / soft = constraint IDs | priority = PRIORITY_FOR_DEVELOPMENT | unknown = what is not established
+# "Clinical exam normal" is recorded as CONTEXT. A normal strength grade is not a training capability.
+MOVEMENT_PROFILE:
+  knee_dominant:
+    cap: UNKNOWN
+    lim: "none documented or reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "supports G-01/G-03 (large-muscle training); relative priority PENDING_B1"
+    context: ["Lower-extremity strength normal on exam 4/27/2026 (TEST)", "MG-ADL 'rising from chair' 1 on 3/30/2026 vs 0 on 3/5/2026 (TEST, UNC); not a programming limitation"]
+    unknown: [loads, depth tolerance, single-leg capability]
+  hip_dominant:
+    cap: UNKNOWN
+    lim: "none documented or reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "supports G-01/G-03; relative priority PENDING_B1"
+    context: ["Posterior-chain emphasis in HH S4 is AI-PLAN, not assessed by a PT"]
+    unknown: [loads, hinge technique, single-leg capability]
+  horizontal_push:
+    cap: UNKNOWN
+    lim: "Right triceps weakness 3/5 vs 4/5 (TEST, UNC grade); fades within a set (PR-FUNC); push-up-position planks difficult (PR-FUNC)"
+    asym: [AS-01, AS-02]
+    coach: "UNKNOWN (trainer programs around the arm; specifics not known)"
+    hard: []
+    soft: [SC-01, "SC-02 candidate", "SC-03 candidate", "SC-05 candidate"]
+    priority: "not stated (chest not named in goals)"
+    unknown: [push-up tolerance (B4b), tolerated pressing loads, bench vs floor vs machine comfort]
+  vertical_push:
+    cap: UNKNOWN
+    lim: "Right triceps involvement as above. No overhead limitation reported or documented (HH §3)."
+    asym: [AS-01, AS-02]
+    coach: UNKNOWN
+    hard: []
+    soft: [SC-01, "SC-02 candidate", "SC-03 candidate", "SC-05 candidate"]
+    priority: "Shoulders are an aesthetic priority (G-04). Deltoids normal on exam (CONTEXT)."
+    unknown: [overhead loads, overhead comfort]
+  horizontal_pull:
+    cap: UNKNOWN
+    lim: "none reported (HH §3: UNK for rows specifically)"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "Whether rows count toward the biceps goal (G-05) is a SYSTEM_DESIGN scoring question, not a profile fact"
+    context: ["Biceps normal on exam (TEST)"]
+    unknown: [loads]
+  vertical_pull:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated"
+    unknown: [pull-up / chin-up capability]
+  carry:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated"
+    context: ["Hand intrinsics normal on exam; no grip complaint (TEST)"]
+    unknown: [loads, distance]
+  core_anti_extension:
+    cap: "self-described beginner/intermediate (PR)"
+    lim: "Push-up-position planks difficult due to right triceps (PR-FUNC)"
+    asym: [AS-01]
+    coach: UNKNOWN
+    hard: [HC-02]
+    soft: ["SC-04 candidate"]
+    priority: "G-07 core consistency"
+    expected_tolerance: "Leg lifts lying on a bench: user expects these are fine (PR expectation, not a tolerance report)"
+    unknown: [forearm plank tolerance, rollout tolerance]
+  core_anti_rotation:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: ["HC-02 if the variant uses a high-plank position"]
+    soft: ["SC-04 candidate (bird dogs, quadruped)"]
+    priority: "G-07"
+    unknown: [pallof availability depends on EQM cable-station answer]
+  core_anti_lateral_flexion:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "G-07"
+    unknown: [side plank tolerance (forearm vs straight arm), suitcase carry loads]
+  rotation:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated"
+    unknown: [all]
+  power:
+    cap: UNKNOWN
+    lim: "none reported"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated; preference UNKNOWN (session preference P-07)"
+    context: ["'No HIIT before Vyvgart' in HH S3 is AI-PLAN; not adopted"]
+    unknown: [jumping/impact tolerance, ballistic KB experience]
+  conditioning:
+    cap: "Reduced: est. 20-40% lower cardio capacity at 4-5 pm sessions, Jul-Aug 2026 (PR-FUNC, UNC cause, last known 2026-08-21, may have resolved)"
+    lim: "same as cap"
+    asym: "n/a"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated"
+    context: ["Apartment gym has treadmill, elliptical, stair stepper, spin bike (EQM)", "'Walking as default cardio' is AI-PLAN (HH S7)"]
+    unknown: [cardio preference (UNC dislike), current walking habit]
+  mobility:
+    cap: UNKNOWN   # not measured (HH §3)
+    lim: "none reported; no pain (PR, May 2026)"
+    asym: "none known"
+    coach: UNKNOWN
+    hard: []
+    soft: []
+    priority: "not stated"
+    context: ["Posture themes (deep neck flexors, thoracic mobility) are AI-PLAN topics for a PT, not assessed", "Cervical curve impression was a low-confidence Claude reading of phone photos"]
+    unknown: [all ROM]
+
+# ─────────────────────────────────────────────────────────────
+STRENGTH_PRIORITIES:
+  documented_weakness:
+    - {area: "right triceps", basis: "TEST 3/5 (4/27/2026) vs 4/5 (5/6/2026), unreconciled; user confirms 3/5 (Sept 2026)", laterality: RIGHT}
+  other_weaker_muscle_groups: "none documented. Biceps, deltoids, wrist extensors, hand intrinsics, lower limb normal on exam 4/27/2026 (CONTEXT)."
+  limited_endurance:
+    - {area: "right triceps, within a set", basis: "PR-FUNC Sept 2026", conflict: "Feb 2026 history: 'not necessarily worse with activity'"}
+  asymmetries: [AS-01, AS-02]
+  aesthetic_priorities:   # personal priority, NOT a documented weakness
+    - {area: "biceps", goal: G-05}
+    - {area: "arms overall", goal: G-04}
+    - {area: "shoulders", goal: G-04}
+  maintain_rather_than_maximize:
+    - {area: "whole-body lean mass during deficit", basis: "G-01 (PR-GOAL)", note: "preserve is the stated floor; whether to push for gains is PENDING_B1"}
+    - {area: "right triceps", basis: PENDING_B5}
+  not_established: "No evidence identifies weak glutes, weak posterior chain, weak grip, etc. None is assumed."
+
+# ─────────────────────────────────────────────────────────────
+ASYMMETRIES:
+  - {id: AS-01, item: "Triceps strength, right weaker", item_class: ASYMMETRY, evidence_label: [TEST, UNC], programming_relevant: true, note: "Left triceps grade never recorded; asymmetry inferred from 'otherwise preserved limb strength' (5/6/2026)"}
+  - {id: AS-02, item: "Triceps within-set fatigue, right", item_class: ASYMMETRY, evidence_label: [PR-FUNC, UNC], programming_relevant: true}
+  - {id: AS-03, item: "Triceps reflexes (absent bilaterally vs trace right)", item_class: CONTEXT, programming_relevant: false}
+  - {id: AS-04, item: "Right brachioradialis RNS decrement >10%, uncertain significance", item_class: CONTEXT, programming_relevant: false, note: "no strength deficit reported"}
+  - {id: AS-05, item: "Left eyelid ptosis", item_class: CONTEXT, programming_relevant: false}
+  - {id: AS-06, item: "Arm girth / atrophy", item_class: OPEN_QUESTION, evidence_label: UNK, note: "not measured; the 'right arm may not fill out' remark was AI-PLAN speculation"}
+
+# ─────────────────────────────────────────────────────────────
+HARD_CONSTRAINTS: [HC-01, HC-02]            # defined in PERSONAL_constraints.yaml
+SOFT_CONSTRAINTS:
+  active: [SC-01]
+  candidates_pending_user: [SC-02, SC-03, SC-04, SC-05]
+
+# ─────────────────────────────────────────────────────────────
+EXERCISE_PREFERENCES:
+  PREFERRED:
+    - {item: "biceps work, heavier loading", evidence_label: PR-GOAL, source: "HH §11.1"}
+    - {item: "biceps paired with shoulder work", evidence_label: PR, source: "HH §12"}
+  NEUTRAL: []   # nothing established
+  DISLIKED:
+    - {item: "cardio", evidence_label: UNC, status: UNCONFIRMED, note: "phrase 'cardio you hate' came from an AI-authored report (HH S7). Held as UNCONFIRMED; generator must not act on it."}
+  UNKNOWN: "everything not listed, including push-ups, overhead pressing, machines, kettlebell ballistics, carries, crawling, mountain climbers, bird dogs, renegade rows"
+  presentation_preferences:   # UX, not selection
+    - {item: "illustrations or explanations for each movement (does not know every movement by name)", evidence_label: PR}
+    - {item: "honest, pressure-tested feedback", evidence_label: PR}
+    - {item: "bench / no-bench option (home context)", evidence_label: PR}
+
+EXERCISE_AVOIDANCES:
+  AVOID:
+    - {item: "dips (any)", constraint: HC-01, reason: "user-reported difficulty, right triceps"}
+    - {item: "push-up-position planks", constraint: HC-02, reason: "user-reported difficulty, right triceps"}
+  NOT_AVOID_list_note: "AI-PLAN exclusions (mountain climbers, bird dogs, bear crawls, skull crushers, free-weight chest and overhead presses) are NOT on this list. They are candidates SC-03/SC-04 pending your decision."
+
+# ─────────────────────────────────────────────────────────────
+CURRENT_CAPABILITIES:
+  items:
+    - {item: "Attends trainer-led circuit weight training 3x/week (continued Jul-Sept 2026)", item_class: CURRENT_CAPABILITY, evidence_label: [PR, CUR], note: "specific exercises tolerated UNKNOWN"}
+    - {item: "Self-described intermediate lifter; beginner/intermediate core", item_class: CURRENT_CAPABILITY, evidence_label: PR}
+    - {item: "Arms can be trained >3 days/week", item_class: CURRENT_CAPABILITY, evidence_label: PR, note: "user statement, not a recovery measurement"}
+    - {item: "Session capacity possibly reduced 20-40% at 4-5 pm", item_class: FUNCTIONAL_LIMITATION, evidence_label: [PR-FUNC, UNC], last_known: 2026-08-21, open_question: OQ-02}
+  documented_well_tolerated_exercises: NONE   # HH §4.3
+  known_loads: NONE   # no numbers supplied
+
+# ─────────────────────────────────────────────────────────────
+PERFORMANCE_BASELINES:
+  records: []   # intentionally empty. No current numbers have been supplied. None are invented.
+  record_schema:
+    baseline_id: string
+    exercise_id: "EX### from exercise library, or free text if not in library"
+    environment: [ENV-ALLOY, ENV-APT, ENV-HOME]
+    date: YYYY-MM-DD
+    side: [bilateral, left, right]          # right-arm-involved exercises are ALWAYS logged per side (D-018)
+    implement: string                        # e.g. "hex DB", "PowerBlock", "cable EQ017"
+    load: number | null
+    load_unit: [lb, kg, stack_pin, bodyweight]
+    sets: integer
+    reps: integer | "per-set list"
+    rpe_or_rir: "optional; RPE 1-10 or RIR 0-5"
+    rom: [full, partial, floor_limited, other]
+    tempo: "optional, e.g. 3-1-1"
+    right_arm_fade_rep: "integer | null  (rep where the right arm began to fade)"
+    feedback_codes: "list from DURING_WORKOUT_FEEDBACK"
+    source: [logged_in_app, user_recalled, trainer_reported]
+    confidence: [HIGH, MEDIUM, LOW]          # recalled numbers are LOW until re-logged
+    notes: string
+
+# ─────────────────────────────────────────────────────────────
+SESSION_PREFERENCES:
+  items:
+    - {id: P-01, item: preferred_duration_min, value: PENDING_B3}
+    - {id: P-02, item: minimum_useful_duration_min, value: PENDING_B3}
+    - {id: P-03, item: maximum_typical_duration_min, value: PENDING_B3}
+    - {id: P-04, item: strength_vs_conditioning_emphasis, value: UNKNOWN, note: "goals imply strength/hypertrophy-first, but that is inference; confirm via B1"}
+    - {id: P-05, item: workout_density, value: UNKNOWN, note: "tolerates circuits at Alloy (PR); preference for apartment sessions not stated"}
+    - {id: P-06, item: variety, value: UNKNOWN}
+    - {id: P-07, item: cardio_preference, value: UNKNOWN, note: "dislike UNCONFIRMED"}
+    - {id: P-08, item: power_impact_preference, value: UNKNOWN}
+    - {id: P-09, item: warm_up_preference, value: UNKNOWN}
+    - {id: P-10, item: finish_preference, value: UNKNOWN}
+  reference_not_preference:
+    - "Alloy sessions run ~50-55 min (RES, ALLOY_DOCUMENTED). This describes Alloy, not your preference."
+    - "'45-60 min sessions' in HH S7 is AI-PLAN."
+
+# ─────────────────────────────────────────────────────────────
+READINESS_VARIABLES:   # V0 pre-workout check-in. Target: under 30 seconds. SYSTEM_DESIGN selection, justified by HH.
+  questions:
+    - {id: R-01, question: "Minutes available today", type: integer, why: "architecture input (session length); not a readiness score"}
+    - {id: R-02, question: "Energy today", options: [low, normal, high], why: "HH's main capacity issue is general low energy (HH §13)"}
+    - {id: R-03, question: "Sleep last night", options: [poor, ok, good], why: "sleep deficit is a documented recovery factor (HH §2.6); currency UNC"}
+    - {id: R-04, question: "Right arm today vs usual", options: [worse, same, better], why: "the one variable that directly changes push/triceps selection and dosing (SC-01)"}
+    - {id: R-05, question: "Anything too sore to load today?", options: [none, upper, lower, specific_area], why: "prevents stacking on sore tissue after Alloy sessions"}
+    - {id: R-06, question: "Feeling unwell or different from your usual today?", options: [no, yes], why: "single gate covering illness (on immunosuppression) and any symptom change. The app does not ask which symptom and does not interpret. If yes, you choose: normal / lighter / skip."}
+    - {id: R-07, question: "Ate per plan 2-3 h before?", options: [yes, no], why: "fueling is the leading hypothesis for the capacity drop (HH §13)", sunset: "remove when OQ-02 is resolved"}
+  excluded_from_v0_and_why:
+    - "Eyelid droop / double vision ratings, MG-ADL, GI, weight, protein, alcohol, tightness scales: medical or nutrition monitoring. Belongs in the Health Project (D-017)."
+    - "Days since tirzepatide dose: derivable from calendar; not asked."
+    - "Motivation: no evidence it changes the right workout for you; can add later."
+
+# ─────────────────────────────────────────────────────────────
+DURING_WORKOUT_FEEDBACK:
+  # One effort rating per exercise (required) + optional flags. Each code maps to exactly one problem class
+  # so the future generator can tell load problems apart from selection, tolerance, preference, and fatigue problems.
+  effort_rating:   # required, per exercise (per side for right-arm-involved exercises)
+    - {code: TOO_EASY,  problem_class: load}
+    - {code: GOOD,      problem_class: none}
+    - {code: HARD,      problem_class: none, note: "intended top end of effort, not a problem"}
+    - {code: TOO_HARD,  problem_class: load}
+  flags:   # optional, any number
+    - {code: RIGHT_ARM_FADE, fields: [rep_number], problem_class: asymmetry_tolerance, note: "recorded, not interpreted; continues the DailyArms weak-arm log"}
+    - {code: TECHNIQUE_DIFFICULTY, problem_class: exercise_selection_complexity}
+    - {code: UNCOMFORTABLE, fields: [location_optional], problem_class: movement_tolerance}
+    - {code: STOPPED_SYMPTOM, fields: [free_text_optional], problem_class: movement_tolerance_or_health, note: "recorded, not interpreted (D-006). Exercise is held from auto-selection until you review it."}
+    - {code: DISLIKE, problem_class: preference}
+    - {code: PREFER, problem_class: preference}
+    - {code: EQUIPMENT_ISSUE, fields: [free_text_optional], problem_class: environment, note: "e.g. station busy, weight missing. Keeps equipment problems from being read as exercise problems."}
+  session_level:   # post-session, one tap
+    - {code: SESSION_CAPACITY, options: [below_usual, usual, above_usual], problem_class: general_fatigue}
+  disambiguation_rules:   # data semantics, not generator policy
+    - "TOO_HARD alone = load problem. TOO_HARD + UNCOMFORTABLE = tolerance problem, not load."
+    - "TOO_HARD across most exercises + SESSION_CAPACITY below_usual = general fatigue, not individual load problems."
+    - "DISLIKE never lowers load; it lowers selection preference only."
+    - "RIGHT_ARM_FADE is never read as TOO_HARD for the left side."
+
+# ─────────────────────────────────────────────────────────────
+RECOVERY_FACTORS:
+  factors:
+    - {id: RF-01, factor: "Energy deficit during weight loss; calorie floor ~1,700; plan low end ~1,400 is below the floor", evidence_label: PR-GOAL, source: "HH §13"}
+    - {id: RF-02, factor: "Sleep: ~5.2 h avg, late onset (Jun-Jul wearable) vs 7-8 h (late Jul report)", evidence_label: UNC, source: "HH §2.6"}
+    - {id: RF-03, factor: "Unresolved afternoon capacity drop; fueling test outcome not recorded", evidence_label: [PR-FUNC, UNC], source: "HH §13"}
+    - {id: RF-04, factor: "Immunosuppression (mycophenolate); illness days", evidence_label: [CUR, TEST], source: "HH §7"}
+    - {id: RF-05, factor: "Tirzepatide weekly on Friday (an Alloy day); GI effects after dose increases; current dose UNC", evidence_label: [PR-SYM, UNC], source: "HH §7"}
+    - {id: RF-06, factor: "Alcohol ~4-5 drinks/week charted; tougher hangovers on tirzepatide", evidence_label: [TEST, PR-SYM], source: "HH §13"}
+    - {id: RF-07, factor: "Travel 2-3 trips/month", evidence_label: PR, source: "HH §12"}
+    - {id: RF-08, factor: "Between-session recovery", evidence_label: UNK}
+  review_triggers:   # re-reconcile this profile with the Health Project when any occurs
+    - new clinician visit with exam findings
+    - right triceps re-graded
+    - Vyvgart started
+    - corticosteroids started
+    - tirzepatide dose change
+    - thymectomy scheduled
+    - "G-04 time box expires (2026-11-01)"
+
+# ─────────────────────────────────────────────────────────────
+PROGRESSION_GATES:
+  # Specifies what information must exist before progression is CONSIDERED. Does not prescribe progression.
+  # All thresholds (N exposures, etc.) are SYSTEM_DESIGN placeholders to be set in Phase 6.
+  global_overrides:   # any one blocks progression pressure
+    - "Active hard constraint conflict (exercise becomes ineligible, not progressed)"
+    - "STOPPED_SYMPTOM or UNCOMFORTABLE on this exercise in the last N exposures, until user review"
+    - "R-06 = yes, or R-02 = low, for the session in question"
+    - "SESSION_CAPACITY below_usual on the logged exposure being evaluated (that exposure is not evidence either way)"
+    - "Movement quality: TECHNIQUE_DIFFICULTY on the last exposure"
+  context_modifiers:
+    - "During the deficit (RF-01), failure to progress is recorded as 'held', not as regression (SYSTEM_DESIGN proposal)"
+  per_dimension_requirements:
+    LOAD:
+      - "at least N logged exposures at the current load"
+      - "all prescribed reps completed with GOOD or TOO_EASY"
+      - "a smaller load increment is actually available (EQM / home inventory)"
+      - "right-arm-involved: right side completed target reps with no RIGHT_ARM_FADE before the target rep; left-side success never counts for the right"
+    REPS:
+      - "current load logged at least N times with GOOD or TOO_EASY"
+      - "rep ceiling for the exercise role defined (Phase 5)"
+      - "right-arm-involved: fade rep history known"
+    SETS:
+      - "weekly exposure for the pattern known, INCLUDING Alloy sessions"
+      - "no downward readiness trend across the week"
+      - "SC-01 parameters set, if the exercise involves the right triceps"
+    ROM:
+      - "no UNCOMFORTABLE flags at current ROM"
+      - "user confirms comfort at larger ROM (never assumed)"
+    TEMPO:
+      - "effort GOOD at current tempo; no TECHNIQUE_DIFFICULTY"
+    COMPLEXITY:
+      - "prerequisite (simpler) variant stable for N exposures"
+      - "no TECHNIQUE_DIFFICULTY in the last 2 exposures"
+      - "target variant passes all hard constraints and equipment checks"
+    UNILATERAL_DEMAND:
+      - "bilateral or supported version stable"
+      - "per-side log exists"
+      - "for right-arm-involved moves: SC-01 parameters set (uneven per-side dosing allowed or not)"
+
+# ─────────────────────────────────────────────────────────────
+MONITORING_VARIABLES:   # recorded, never interpreted by the generator
+  - {id: M-01, variable: "right_arm_fade_rep by exercise", source: "RIGHT_ARM_FADE flag"}
+  - {id: M-02, variable: "session capacity vs usual", source: SESSION_CAPACITY}
+  - {id: M-03, variable: "pain flag", source: "UNCOMFORTABLE / STOPPED_SYMPTOM"}
+  - {id: M-04, variable: "unwell/different gate", source: R-06}
+  - {id: M-05, variable: "new numbness, tingling, or radiating symptoms", source: "free text under STOPPED_SYMPTOM; export to Health Project, no in-app rule"}
+
+# ─────────────────────────────────────────────────────────────
+OPEN_QUESTIONS:
+  BLOCKING_V0:
+    - {id: B1, question: "Rank goals G-01..G-07; is the deficit-phase intent build or preserve?", controls: [GOAL_PRIORITIES, P-04]}
+    - {id: B2, question: "Apartment sessions per week; whether the apartment generator shares the arms/shoulders goal with DailyArms; whether DailyArms/DailyAbs are active and should be logged", controls: [TRAINING_FREQUENCY, G-04]}
+    - {id: B3, question: "Preferred / minimum / maximum session length", controls: [P-01, P-02, P-03]}
+    - {id: B4, question: "Constraint scoping: (a) HC-02 scope, (b) push-ups, (c) SC-03, (d) SC-04", controls: [HC-02, SC-03, SC-04, horizontal_push]}
+    - {id: B5, question: "Right triceps: training intent, dosing (uneven per-side allowed?), set termination (SC-02), global no-failure (SC-05)", controls: [G-06, SC-01, SC-02, SC-05]}
+    - {id: B6, question: "How will Alloy sessions be logged (exercise-level vs quick summary), and can you see your Alloy program in advance?", controls: [TRAINING_FREQUENCY.alloy_studio_sessions]}
+  IMPORTANT_NOT_BLOCKING:
+    - {id: OQ-01, question: "What your Alloy coach actually substitutes or avoids for you (would become TRAINER-sourced constraints, D-015)"}
+    - {id: OQ-02, question: "Fueling-test result; has afternoon capacity returned?"}
+    - {id: OQ-03, question: "Finish, warm-up, cardio, and power/impact preferences (P-07..P-10)"}
+    - {id: OQ-04, question: "Updated weight-target date"}
+    - {id: OQ-H01, question: "Scope and limits of Dr. Preston's clearance", route: HEALTH_PROJECT, note: "any limits returned become CLINICIAN-sourced constraints"}
+    - {id: OQ-H02, question: "Current right triceps grade; left triceps grade", route: HEALTH_PROJECT}
+    - {id: OQ-H03, question: "Any restriction related to cervical findings", route: HEALTH_PROJECT}
+    - {id: OQ-H04, question: "Creatine clearance", route: HEALTH_PROJECT}
+    - {id: OQ-H05, question: "Heart-rate / stimulant guidance given Graves'", route: HEALTH_PROJECT}
+  CAN_LEARN_THROUGH_USE:
+    - "Starting loads for every exercise (calibration exposures)"
+    - "Push/pull/squat/hinge/carry capability levels"
+    - "Tolerance of candidate movements if SC-04 is set to LEARN_THROUGH_USE"
+    - "Variety and density preference"
+    - "Between-session recovery"
+    - "Exercise likes/dislikes"

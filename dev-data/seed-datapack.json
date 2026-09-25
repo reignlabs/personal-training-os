@@ -1,0 +1,836 @@
+{
+  "id": "datapack",
+  "type": "datapack",
+  "created_at": "2026-09-24T18:00:00.000Z",
+  "updated_at": "2026-09-24T18:00:00.000Z",
+  "manifest": {
+    "format": "pto-datapack",
+    "datapack_id": "dp_0.0.1-dev_00000000",
+    "pack_version": "0.0.1-dev",
+    "built_at": "2026-09-24T18:00:00.000Z",
+    "tool_version": "0.0.1-dev",
+    "contract_version": "1.0.0",
+    "engine_compat": {
+      "min": "0.2.1",
+      "max_exclusive": "0.3.0"
+    },
+    "config_version": "0.2.0",
+    "sources": [
+      {
+        "file": "dev-data/generate-seed.mjs",
+        "version": null,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "counts": {
+      "exercises": 8,
+      "equipment": 4
+    }
+  },
+  "exercises": [
+    {
+      "exercise_id": "EX012",
+      "canonical_name": "Goblet Squat",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX011",
+      "canonical_name": "Kettlebell Deadlift",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX054",
+      "canonical_name": "Dumbbell Bench Press",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX015",
+      "canonical_name": "Kettlebell Overhead Press",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX066",
+      "canonical_name": "Dumbbell Bent-Over Row",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX090",
+      "canonical_name": "Deadbug",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX046",
+      "canonical_name": "Farmer's Carry",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    },
+    {
+      "exercise_id": "EX101",
+      "canonical_name": "Ankle Rocks",
+      "tier": 1,
+      "alloy_observed": true,
+      "evidence_classification": "ALLOY_DOCUMENTED",
+      "documented_coaching_cues": null,
+      "source_ids": [
+        "S-DEV"
+      ]
+    }
+  ],
+  "evidence_sources": [
+    {
+      "source_id": "S-DEV",
+      "url": null,
+      "document": "Dev seed (not a real Alloy source)"
+    }
+  ],
+  "aliases": [],
+  "exercise_metadata": [
+    {
+      "exercise_id": "EX012",
+      "status": "ACTIVE",
+      "display_name": "Goblet Squat",
+      "family": "KD",
+      "sub_target": null,
+      "roles_allowed": [
+        "PRIMARY",
+        "SECONDARY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": false,
+      "load_mode": "EXTERNAL_LOAD",
+      "equipment_options": [
+        [
+          "EQ009"
+        ],
+        [
+          "EQ010"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": true,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [],
+      "sore_regions": [
+        "LOWER"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX011",
+      "status": "ACTIVE",
+      "display_name": "Kettlebell Deadlift",
+      "family": "HD",
+      "sub_target": null,
+      "roles_allowed": [
+        "PRIMARY",
+        "SECONDARY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": false,
+      "load_mode": "EXTERNAL_LOAD",
+      "equipment_options": [
+        [
+          "EQ009"
+        ],
+        [
+          "EQ010"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": true,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [],
+      "sore_regions": [
+        "LOWER"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX054",
+      "status": "ACTIVE",
+      "display_name": "Dumbbell Bench Press",
+      "family": "HPUSH",
+      "sub_target": null,
+      "roles_allowed": [
+        "PRIMARY",
+        "SECONDARY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": true,
+      "load_mode": "EXTERNAL_LOAD",
+      "equipment_options": [
+        [
+          "EQ010",
+          "EQ011"
+        ]
+      ],
+      "station": "BENCH_2",
+      "heavy_lower": false,
+      "right_triceps_involvement": "SECONDARY",
+      "hand_support": "NONE",
+      "position_tags": [
+        "supine_press"
+      ],
+      "sore_regions": [
+        "UPPER"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX015",
+      "status": "ACTIVE",
+      "display_name": "Kettlebell Overhead Press",
+      "family": "VPUSH",
+      "sub_target": null,
+      "roles_allowed": [
+        "PRIMARY",
+        "SECONDARY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": true,
+      "load_mode": "EXTERNAL_LOAD",
+      "equipment_options": [
+        [
+          "EQ009"
+        ],
+        [
+          "EQ010"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": false,
+      "right_triceps_involvement": "SECONDARY",
+      "hand_support": "NONE",
+      "position_tags": [
+        "overhead_press"
+      ],
+      "sore_regions": [
+        "UPPER"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX066",
+      "status": "ACTIVE",
+      "display_name": "Dumbbell Bent-Over Row",
+      "family": "HPULL",
+      "sub_target": null,
+      "roles_allowed": [
+        "PRIMARY",
+        "SECONDARY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": false,
+      "load_mode": "EXTERNAL_LOAD",
+      "equipment_options": [
+        [
+          "EQ010"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": false,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [],
+      "sore_regions": [
+        "UPPER"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX090",
+      "status": "ACTIVE",
+      "display_name": "Deadbug",
+      "family": "ANTI_EXT",
+      "sub_target": null,
+      "roles_allowed": [
+        "CORE"
+      ],
+      "laterality": "ALTERNATING",
+      "per_side_logging": false,
+      "load_mode": "BODYWEIGHT",
+      "equipment_options": [
+        [
+          "EQ013"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": false,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [
+        "floor"
+      ],
+      "sore_regions": [
+        "TRUNK"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX046",
+      "status": "ACTIVE",
+      "display_name": "Farmer's Carry",
+      "family": "CARRY",
+      "sub_target": null,
+      "roles_allowed": [
+        "CARRY"
+      ],
+      "laterality": "BILATERAL",
+      "per_side_logging": false,
+      "load_mode": "TIME_WITH_LOAD",
+      "equipment_options": [
+        [
+          "EQ009"
+        ],
+        [
+          "EQ010"
+        ]
+      ],
+      "station": "NONE",
+      "heavy_lower": false,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [],
+      "sore_regions": [
+        "UPPER",
+        "LOWER",
+        "TRUNK"
+      ],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    },
+    {
+      "exercise_id": "EX101",
+      "status": "ACTIVE",
+      "display_name": "Ankle Rocks",
+      "family": "MOBILITY",
+      "sub_target": null,
+      "roles_allowed": [
+        "MOBILITY"
+      ],
+      "laterality": "UNILATERAL",
+      "per_side_logging": false,
+      "load_mode": "BODYWEIGHT",
+      "equipment_options": [
+        []
+      ],
+      "station": "NONE",
+      "heavy_lower": false,
+      "right_triceps_involvement": "NONE",
+      "hand_support": "NONE",
+      "position_tags": [],
+      "sore_regions": [],
+      "capability_prereq": null,
+      "evidence_basis": "ALLOY_LIBRARY",
+      "default_order": 1,
+      "library_order": 1,
+      "executed_as": null,
+      "demo_ref": null,
+      "authoring_note": "Dev seed row: a representative subset, not the authored EXERCISE_METADATA.md (B6)."
+    }
+  ],
+  "supplemental": [],
+  "family_order_approvals": [
+    {
+      "family": "KD",
+      "approved_on": "2026-09-24",
+      "order_hash": "b2cdda4c913624a1"
+    },
+    {
+      "family": "HD",
+      "approved_on": "2026-09-24",
+      "order_hash": "ccca514c9fee2ad4"
+    },
+    {
+      "family": "HPUSH",
+      "approved_on": "2026-09-24",
+      "order_hash": "36b14c2bcb8252b3"
+    },
+    {
+      "family": "VPUSH",
+      "approved_on": "2026-09-24",
+      "order_hash": "ee96354cb2d47428"
+    },
+    {
+      "family": "HPULL",
+      "approved_on": "2026-09-24",
+      "order_hash": "b4a6d022f5043cae"
+    },
+    {
+      "family": "ANTI_EXT",
+      "approved_on": "2026-09-24",
+      "order_hash": "0376389123a7207b"
+    },
+    {
+      "family": "CARRY",
+      "approved_on": "2026-09-24",
+      "order_hash": "42885c34efd47070"
+    },
+    {
+      "family": "MOBILITY",
+      "approved_on": "2026-09-24",
+      "order_hash": "878dad4c063584f6"
+    }
+  ],
+  "equipment_catalog": [
+    {
+      "equipment_id": "EQ009",
+      "kind": "PHYSICAL",
+      "parent_equipment_id": null,
+      "implement_type": "KETTLEBELL",
+      "display_name": "Kettlebells",
+      "category": "free weight",
+      "description": "Kettlebell set",
+      "limitations": null,
+      "confidence": "confirmed",
+      "evidence_source": null,
+      "load_unit": "lb"
+    },
+    {
+      "equipment_id": "EQ010",
+      "kind": "PHYSICAL",
+      "parent_equipment_id": null,
+      "implement_type": "DUMBBELL",
+      "display_name": "Dumbbells",
+      "category": "free weight",
+      "description": "Adjustable dumbbells",
+      "limitations": null,
+      "confidence": "confirmed",
+      "evidence_source": null,
+      "load_unit": "lb"
+    },
+    {
+      "equipment_id": "EQ011",
+      "kind": "PHYSICAL",
+      "parent_equipment_id": null,
+      "implement_type": "ADJUSTABLE_BENCH",
+      "display_name": "Adjustable bench",
+      "category": "bench",
+      "description": "Flat/incline adjustable bench",
+      "limitations": null,
+      "confidence": "confirmed",
+      "evidence_source": null,
+      "load_unit": null
+    },
+    {
+      "equipment_id": "EQ013",
+      "kind": "PHYSICAL",
+      "parent_equipment_id": null,
+      "implement_type": "MAT",
+      "display_name": "Exercise mat",
+      "category": "floor",
+      "description": "Floor mat",
+      "limitations": null,
+      "confidence": "confirmed",
+      "evidence_source": null,
+      "load_unit": null
+    }
+  ],
+  "environments": [
+    {
+      "env_id": "ENV-APT",
+      "name": "Apartment gym",
+      "kind": "GENERATION_TARGET",
+      "generation_enabled": true,
+      "load_unit": "lb",
+      "station_groups": [
+        {
+          "station_group": "BENCH_2",
+          "label": "Adjustable bench",
+          "equipment_ids": [
+            "EQ011"
+          ]
+        }
+      ],
+      "general_warmup_order": [
+        "EQ002",
+        "EQ015",
+        "EQ016"
+      ]
+    },
+    {
+      "env_id": "ENV-ALLOY",
+      "name": "Alloy Personal Training studio",
+      "kind": "TRAINER_LED_EXTERNAL",
+      "generation_enabled": false,
+      "load_unit": "lb",
+      "station_groups": [],
+      "general_warmup_order": []
+    },
+    {
+      "env_id": "ENV-OTHER",
+      "name": "Other / manual",
+      "kind": "LOGGING_ONLY",
+      "generation_enabled": false,
+      "load_unit": "lb",
+      "station_groups": [],
+      "general_warmup_order": []
+    }
+  ],
+  "equipment_baseline": [
+    {
+      "env_id": "ENV-APT",
+      "equipment_id": "EQ009",
+      "availability": "AVAILABLE",
+      "loads": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "max_confirmed_load": 45,
+      "station_group": "NONE",
+      "confirmed_on": "2026-09-20"
+    },
+    {
+      "env_id": "ENV-APT",
+      "equipment_id": "EQ010",
+      "availability": "AVAILABLE",
+      "loads": null,
+      "max_confirmed_load": 50,
+      "station_group": "NONE",
+      "confirmed_on": "2026-09-20"
+    },
+    {
+      "env_id": "ENV-APT",
+      "equipment_id": "EQ011",
+      "availability": "AVAILABLE",
+      "loads": null,
+      "max_confirmed_load": null,
+      "station_group": "BENCH_2",
+      "confirmed_on": "2026-09-20"
+    },
+    {
+      "env_id": "ENV-APT",
+      "equipment_id": "EQ013",
+      "availability": "AVAILABLE",
+      "loads": null,
+      "max_confirmed_load": null,
+      "station_group": "NONE",
+      "confirmed_on": "2026-09-20"
+    }
+  ],
+  "profile": {
+    "user_id": "nelson",
+    "display_name": "Nelson",
+    "profile_version": "0.0.1-dev",
+    "constraints_version": "0.0.1-dev",
+    "default_tz": "America/Los_Angeles",
+    "units": "lb",
+    "generation_env_id": "ENV-APT",
+    "alloy_schedule_default": [
+      {
+        "weekday": "MON",
+        "start": "16:00"
+      },
+      {
+        "weekday": "WED",
+        "start": "16:00"
+      },
+      {
+        "weekday": "FRI",
+        "start": "16:00"
+      }
+    ],
+    "avoidances": [],
+    "pending_questions": [],
+    "goals_display": [],
+    "presentation_preferences": [],
+    "context_item_ids": []
+  },
+  "constraints": [
+    {
+      "constraint_id": "HC-01",
+      "kind": "HARD",
+      "status": "ACTIVE",
+      "source": "USER",
+      "label_in_app": "No dip-position exercises",
+      "description_in_app": "Dip-position pressing is excluded.",
+      "programming_effect_in_app": "Exercises tagged dip are excluded from selection.",
+      "review_question": null,
+      "engine_bindings": [
+        {
+          "filter": "HF-01",
+          "outcome": "EXCLUDED",
+          "where": {
+            "position_tags_any": [
+              "dip"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "constraint_id": "HC-02",
+      "kind": "HARD",
+      "status": "ACTIVE_SCOPE_PENDING",
+      "source": "USER",
+      "label_in_app": "No push-up-position planks (scope pending)",
+      "description_in_app": "High-plank exercises are excluded; exercises whose plank position is unconfirmed are held.",
+      "programming_effect_in_app": "HIGH_PLANK rows excluded; PLANK_POSITION_UNCONFIRMED rows held pending review.",
+      "review_question": "Which plank-position exercises are safe for you?",
+      "engine_bindings": [
+        {
+          "filter": "HF-01",
+          "outcome": "EXCLUDED",
+          "where": {
+            "hand_support_in": [
+              "HIGH_PLANK"
+            ]
+          }
+        },
+        {
+          "filter": "HF-02",
+          "outcome": "HELD_PENDING_SCOPE",
+          "where": {
+            "hand_support_in": [
+              "PLANK_POSITION_UNCONFIRMED"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "config_version": "0.2.0",
+    "values": {
+      "MIN_SESSION_MINUTES": 15,
+      "TIER_AB_MINUTES": 25,
+      "TIER_ABC_MINUTES": 35,
+      "TIER_ABCF_MINUTES": 45,
+      "PREP_MINUTES_SHORT": 4,
+      "PREP_MINUTES": 6,
+      "PREP_GENERAL_MINUTES": 3,
+      "FIRST_SESSIONS_NO_FINISH": 2,
+      "FAMILY_ORDER": [
+        "KD",
+        "HD",
+        "HPULL",
+        "HPUSH",
+        "VPULL",
+        "VPUSH",
+        "ANTI_EXT",
+        "ANTI_ROT",
+        "ANTI_LAT",
+        "CARRY",
+        "GOAL_ACCESSORY"
+      ],
+      "PARENT_ORDER": [
+        "PULL",
+        "PUSH"
+      ],
+      "CORE_STARVATION_DAYS": 7,
+      "FINISH_PRIORITY": [
+        "GOAL_ACCESSORY",
+        "CORE_OR_CARRY",
+        "CONDITIONING",
+        "MOBILITY"
+      ],
+      "GOAL_ACCESSORY_ENABLED": false,
+      "GOAL_ACCESSORY_MIN_HOURS": 24,
+      "CONDITIONING_OPT_IN": false,
+      "CONDITIONING_FORMAT": {
+        "minutes": 8,
+        "work_s": 30,
+        "easy_s": 30,
+        "non_impact_only": true
+      },
+      "MIN_SETS_FOR_CREDIT": 2,
+      "REPEAT_EXCLUSION_DAYS": 1,
+      "HEAVY_LOWER_RECOVERY_HOURS": 24,
+      "ACCESSORY_ROTATION_EXPOSURES": 4,
+      "ENABLE_NOVEL_DRAW": true,
+      "ROLE_TABLE": {
+        "PRIMARY": {
+          "unit": "REPS",
+          "range_min": 6,
+          "range_max": 10,
+          "step": 1,
+          "default_sets": 3,
+          "rest_after_pair_s": 90
+        },
+        "SECONDARY": {
+          "unit": "REPS",
+          "range_min": 8,
+          "range_max": 12,
+          "step": 1,
+          "default_sets": 3,
+          "rest_after_pair_s": 75
+        },
+        "CORE": {
+          "unit": "REPS",
+          "range_min": 8,
+          "range_max": 12,
+          "step": 1,
+          "default_sets": 2,
+          "rest_after_pair_s": 45
+        },
+        "CORE_TIME": {
+          "unit": "SECONDS",
+          "range_min": 20,
+          "range_max": 40,
+          "step": 5,
+          "default_sets": 2,
+          "rest_after_pair_s": 45
+        },
+        "CARRY": {
+          "unit": "SECONDS",
+          "range_min": 30,
+          "range_max": 45,
+          "step": 5,
+          "default_sets": 2,
+          "rest_after_pair_s": 45
+        },
+        "ACCESSORY": {
+          "unit": "REPS",
+          "range_min": 10,
+          "range_max": 15,
+          "step": 1,
+          "default_sets": 2,
+          "rest_after_pair_s": 45
+        },
+        "MOBILITY": {
+          "unit": "SECONDS",
+          "range_min": 30,
+          "range_max": 45,
+          "step": 5,
+          "default_sets": 1,
+          "rest_after_pair_s": null
+        },
+        "CONDITIONING": {
+          "unit": "SECONDS",
+          "range_min": 0,
+          "range_max": 0,
+          "step": 0,
+          "default_sets": 1,
+          "rest_after_pair_s": null
+        }
+      },
+      "PAIR_SET_MINUTES": {
+        "PRIMARY": 3,
+        "SECONDARY": 2.75,
+        "OTHER": 2
+      },
+      "UNILATERAL_ADD_MINUTES": 0.5,
+      "BLOCK_SETUP_MINUTES": 1,
+      "RAMP_MINUTES": 2,
+      "STRAIGHT_SETS_ADD_MINUTES": 1,
+      "FINISH_MINUTES": 6,
+      "DURATION_TOLERANCE_MINUTES": 3,
+      "UNDERFILL_NOTICE_MINUTES": 10,
+      "LOAD_UP_CONFIRMATIONS": 1,
+      "NOMINAL_LOAD_STEP": 5,
+      "LOAD_CAP_EXTRA": 3,
+      "GAP_DAYS": 14,
+      "STALL_FLAG_EXPOSURES": 4,
+      "ALLOW_UNEVEN_SIDE_DOSING": false,
+      "ALLOY_SCHEDULE": [
+        {
+          "weekday": "MON",
+          "start": "16:00"
+        },
+        {
+          "weekday": "WED",
+          "start": "16:00"
+        },
+        {
+          "weekday": "FRI",
+          "start": "16:00"
+        }
+      ],
+      "ALLOY_PROMPT_LOOKBACK_HOURS": 72,
+      "ALLOY_MAX_PROMPTS": 3,
+      "ALLOY_DEFAULT_DURATION_MINUTES": 55,
+      "ALLOY_TIME_UNCERTAINTY_HOURS": 2
+    },
+    "set_by": {
+      "GOAL_ACCESSORY_ENABLED": "ENGINE_DEFAULT",
+      "CONDITIONING_OPT_IN": "ENGINE_DEFAULT"
+    }
+  }
+}

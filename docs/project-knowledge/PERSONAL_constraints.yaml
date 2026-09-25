@@ -1,0 +1,167 @@
+# file: PERSONAL_constraints.yaml
+# class: PERSONAL
+# version: v0 draft 0.1 (2026-09-23)
+# status: DRAFT. HC-01 is ACTIVE. HC-02 is ACTIVE with scope pending (B4).
+#         SC-01 is ACTIVE with parameters pending (B5). SC-02..SC-05 are CANDIDATES awaiting your decision (B4/B5).
+# companion: PERSONAL_user_profile.yaml references these IDs; constraints are defined only here (D-012).
+#
+# RULES FOR THIS FILE (D-006, D-013, D-014)
+#  1. Only constraints stated by the USER, a CLINICIAN, or a TRAINER are recorded as active.
+#  2. Rules written by Claude inside the Health Project (evidence_label AI-PLAN) are held as CANDIDATES.
+#     They become active only if you adopt them. Once adopted, source becomes "USER (adopted from AI-PLAN)".
+#  3. A diagnosis alone never creates a constraint. Diagnoses with no stated training implication are
+#     recorded as CONTEXT in the profile, not here.
+#  4. HARD = generator excludes or enforces automatically.
+#     SOFT = generator adjusts scoring, selection, volume, intensity, ROM, frequency, or progression; does not prohibit.
+#  5. Constraints are written against movement descriptions / tags. Exercise lists below are the current best
+#     mapping against DATA exercise library v0 (103 rows) and are provisional until the Phase 3 tag dictionary
+#     exists. Position-dependent matches are marked as such, never silently excluded.
+#
+# status vocabulary: ACTIVE | ACTIVE_SCOPE_PENDING | ACTIVE_PARAMETERS_PENDING | CANDIDATE_PENDING_USER | NOT_ADOPTED | RETIRED
+# source vocabulary: USER | CLINICIAN | TRAINER | USER (adopted from AI-PLAN)
+# HH = Personal_Training_Health_Profile_v0_1.md (Health Project handoff, 2026-09)
+
+hard_constraints:
+
+  - constraint_id: HC-01
+    description: "No dips of any kind (parallel-bar, bench, or assisted)."
+    affected_patterns: [vertical_push_bodyweight_dip, triceps_dominant_bodyweight_push]
+    affected_exercises_if_known:
+      library: "No dip rows exist in exercise library v0."
+      equipment: "Apartment gym dip station EQ003 must not be used for dips. It may still be used for other purposes (e.g. elevated handles) unless you say otherwise."
+    laterality: bilateral movement; reason is right-side (right triceps)
+    source: USER
+    evidence_label: PR-FUNC
+    source_reference: "HH §9: 'Let's avoid any dips (in my case) since that is difficult for my triceps.'"
+    reason: "User-reported difficulty due to right triceps."
+    clinician_confirmed: false
+    label_in_app: "Your exclusion (not a medical restriction)"
+    status: ACTIVE
+    confidence: HIGH
+    review_needed: false
+
+  - constraint_id: HC-02
+    description: "No push-up-position (straight-arm, high-plank) planks."
+    affected_patterns: [core_anti_extension, core_anti_rotation]
+    affected_exercises_if_known:
+      documented_position_match:
+        - {id: EX040, name: Suspension Halo, basis: "library cue: 'Start in push up position'"}
+      position_dependent_candidates:   # exercise position is NOT documented in the library; scope question B4a
+        - {id: EX025, name: Plank With Shoulder Touch}
+        - {id: EX076, name: Traditional Plank, note: "forearm version would not be covered"}
+        - {id: EX077, name: Marching Plank}
+        - {id: EX078, name: Plank with a Reach}
+        - {id: EX079, name: Around-the-World Plank}
+        - {id: EX034, name: Renegade Row, note: "a moving high-plank exercise; in or out of scope depends on B4a"}
+        - {id: EX032, name: Mountain Climbers, note: "a moving high-plank exercise; in or out of scope depends on B4a"}
+      explicitly_not_covered_by_this_statement:
+        - {id: EX001, name: Push-Up, note: "push-ups are not the same statement; tolerance UNKNOWN (B4b)"}
+    laterality: bilateral position; reason is right-side (right triceps)
+    source: USER
+    evidence_label: PR-FUNC
+    source_reference: "HH §9: push-up-position planks 'are difficult for me because of my right triceps'; exclusion accepted in DailyAbs."
+    reason: "User-reported difficulty due to right triceps."
+    clinician_confirmed: false
+    label_in_app: "Your exclusion (not a medical restriction)"
+    status: ACTIVE_SCOPE_PENDING
+    confidence: MEDIUM_HIGH   # stated as 'difficult', accepted as an exclusion; scope beyond static planks not stated
+    review_needed: true
+    review_question: B4a
+
+soft_constraints:
+
+  - constraint_id: SC-01
+    description: "Right triceps: loaded elbow-extension and pressing work needs adjusted selection, dosing, and progression."
+    affected_patterns: [horizontal_push, vertical_push, triceps_isolation, overhead_components_of_complexes]
+    affected_exercises_if_known:
+      pressing: [EX001 Push-Up, EX041 Dumbbell Floor Press, EX054 Dumbbell Bench Press, EX096 Single-Arm Dumbbell Bench Press,
+                 EX070 See-Saw Incline Dumbbell Press, EX015 Kettlebell Overhead Press, EX071 Half-Kneeling Single-Arm KB Overhead Press,
+                 EX062 Deficit Push-Up, EX063 Explosive Push-Up]
+      complexes_with_press: [EX016 Single Arm Kettlebell Thruster, EX072 Thruster, EX099 Kettlebell Clean-to-Press, EX086 Turkish Get-Up]
+      apartment_gym_machines: [EQ017 cable chest press, EQ019 cable shoulder press]
+      triceps_isolation: "none in library v0"
+    laterality: RIGHT
+    source: "TEST (clinician exam) + USER (PR-FUNC)"
+    evidence_label: [TEST, PR-FUNC, UNC]
+    source_reference: "HH §1.1, §2.2, §10 S-1. Right triceps 3/5 (4/27/2026) vs 4/5 (5/6/2026), unreconciled; user confirms 3/5 in Sept 2026; weakness builds within a set."
+    reason: "Documented focal right triceps weakness plus user-reported within-set fade. No clinician has addressed how it should be loaded."
+    adjustment_parameters: PENDING_USER   # B5. Options are listed in the chat and in OPEN_QUESTIONS; none chosen yet.
+    what_this_does_NOT_do: "Does not exclude pressing. Does not prescribe rehabilitation. Does not assume the weakness will or will not improve."
+    status: ACTIVE_PARAMETERS_PENDING
+    confidence: HIGH (limitation exists) / UNKNOWN (appropriate adjustment)
+    review_needed: true
+    review_trigger: "clinician re-grades right triceps; Dr. Preston states scope of clearance"
+
+  - constraint_id: SC-02
+    description: "Right-arm set termination: end the right-side set at first noticeable fade rather than at the prescribed rep target."
+    affected_patterns: ["any exercise where the right triceps is a working muscle (see SC-01 list)"]
+    affected_exercises_if_known: "same as SC-01"
+    laterality: RIGHT
+    source: "basis USER (PR-FUNC within-set fade); rule wording AI-PLAN (HH §8.4, S5 DailyArms)"
+    evidence_label: [PR-FUNC, AI-PLAN]
+    reason: "Within-set fade is user-reported. The 'stop at first fade' rule was written by Claude, not a clinician or trainer."
+    conflict_to_preserve: "Feb 2026 clinic history records 'not necessarily worse with activity' (HH §2.2)."
+    status: CANDIDATE_PENDING_USER
+    confidence: MEDIUM
+    review_needed: true
+    review_question: B5
+
+  - constraint_id: SC-03
+    description: "Free-weight pressing where a failed right-arm rep could bring the weight over the face, head, or shoulder (lying presses, overhead presses, lying triceps extensions)."
+    affected_patterns: [horizontal_push, vertical_push, triceps_isolation]
+    affected_exercises_if_known: [EX041, EX054, EX096, EX070, EX015, EX071, "barbell bench press (not a library row)", "skull crusher / French press (not library rows)"]
+    lower_risk_alternatives_available_in_apartment_gym: [EQ017 cable chest press, EQ019 cable shoulder press]   # descriptive only
+    laterality: RIGHT (failure risk originates in right arm)
+    source: AI-PLAN (HH §8.4, S5 DailyArms brief)
+    evidence_label: AI-PLAN
+    reason: "Claude-authored safety design. No event has been reported. Currently used as a default filter in DailyArms."
+    adoption_options: [HARD_EXCLUDE, SOFT_PREFER_ALTERNATIVES, NOT_ADOPTED]
+    status: CANDIDATE_PENDING_USER
+    confidence: LOW_MEDIUM
+    review_needed: true
+    review_question: B4c
+
+  - constraint_id: SC-04
+    description: "Straight-arm weight bearing beyond push-up-position planks (quadruped, crawling, get-up posting arm)."
+    affected_patterns: [core_anti_rotation, core_anti_extension, locomotion, mobility_flows]
+    affected_exercises_if_known: [EX003 Bird Dog Plank, EX083 Quadruped Isometric Hold, EX084 Bear Crawl, EX085 Spider Crawl,
+                                  EX006 Burpee, EX092 Inchworm, EX086 Turkish Get-Up]
+    laterality: RIGHT
+    source: AI-PLAN (HH §8.4, S5/C1 DailyAbs)
+    evidence_label: AI-PLAN
+    reason: "Extrapolated by Claude from the push-up-plank report. Tolerance never tested (HH §10 S-4)."
+    adoption_options: [HARD_EXCLUDE, SOFT_DEPRIORITIZE, NOT_ADOPTED, LEARN_THROUGH_USE]
+    status: CANDIDATE_PENDING_USER
+    confidence: LOW
+    review_needed: true
+    review_question: B4d
+
+  - constraint_id: SC-05
+    description: "Global: no sets taken to muscular failure; keep reps in reserve."
+    affected_patterns: [all]
+    affected_exercises_if_known: all
+    laterality: global
+    source: "AI-PLAN (HH §8.4 - S3 '2-3 RIR', S5 'never to failure', S7 '1-3 RIR')"
+    evidence_label: AI-PLAN
+    reason: "Appears in three Claude-authored Health Project documents. Not clinician- or trainer-issued."
+    adoption_options: [ADOPT_AS_SOFT, NOT_ADOPTED]
+    status: CANDIDATE_PENDING_USER
+    confidence: LOW_MEDIUM
+    review_needed: true
+    review_question: B5
+
+# Health-handoff soft-constraint candidates (HH §10) that were NOT converted into constraints, and where each went.
+# Nothing was discarded. Each was reclassified to the item class its evidence supports (D-014).
+not_converted_from_health_handoff:
+  - {hh_id: S-5,  item: "Low capacity at 4-5 pm under appetite suppression", now: [FUNCTIONAL_LIMITATION, MONITORING_VARIABLE, PROGRESSION_GATE], why: "state that varies day to day; handled by readiness, not by exclusion"}
+  - {hh_id: S-6,  item: "Weight-loss phase / lean-mass priority", now: [GOAL G-01, RECOVERY_FACTOR RF-01, PROGRESSION_GATE], why: "a goal and recovery context, not a movement limit"}
+  - {hh_id: S-7,  item: "MG activity trend", now: [CONTEXT, READINESS R-06], why: "no stated training implication; captured by the 'anything different today' gate"}
+  - {hh_id: S-8,  item: "Vyvgart cycle weeks", now: [REVIEW_TRIGGER], why: "treatment not started; volume-hold rule is AI-PLAN"}
+  - {hh_id: S-9,  item: "Illness days on immunosuppression", now: [READINESS R-06, RECOVERY_FACTOR RF-04], why: "day-state input; response is your choice"}
+  - {hh_id: S-10, item: "Heat", now: [NOT_ADOPTED], why: "general literature only; no user report of heat sensitivity"}
+  - {hh_id: S-11, item: "Cervical stenosis findings", now: [CONTEXT, OPEN_QUESTION OQ-H03, MONITORING M-05], why: "diagnosis-only; asymptomatic neck; no clinician restriction. Adding an axial-loading restriction would be inferring a medical restriction."}
+  - {hh_id: S-12, item: "Heart-rate response (Graves', stimulants, minoxidil)", now: [CONTEXT, OPEN_QUESTION OQ-H05], why: "no clinician guidance; wearables out of V0 scope"}
+  - {hh_id: S-13, item: "Sleep deficit", now: [READINESS R-03, RECOVERY_FACTOR RF-02], why: "day-state input"}
+  - {hh_id: S-14, item: "Friday tirzepatide dose day", now: [RECOVERY_FACTOR RF-05], why: "Friday is an Alloy day, not a generated session; energy effect is AI-PLAN speculation"}
+  - {hh_id: S-15, item: "Travel weeks", now: [TRAINING_FREQUENCY disruption], why: "scheduling input"}
+  - {hh_id: S-16, item: "Upward-gaze positions", now: [NOT_ADOPTED, CONTEXT], why: "no exercise impact ever reported; handoff itself says do not restrict without a user report"}

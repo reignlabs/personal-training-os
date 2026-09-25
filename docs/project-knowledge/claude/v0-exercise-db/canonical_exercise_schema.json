@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal Training OS | Alloy-Inspired — Canonical Exercise Schema (V0)",
+  "description": "Normalized, provenance-preserving exercise record. This schema covers ONLY source-derived evidence layers (EXPLICITLY_DOCUMENTED-equivalent, DIRECTLY_OBSERVED-equivalent, and analyst SUPPORTED_PATTERN classification). Personal-suitability, difficulty, contraindications, goal/weakness scores, and progression trees are deliberately excluded from this object — see system_metadata_schema.json for that separable layer.",
+  "type": "object",
+  "required": ["exercise_id", "canonical_name", "alloy_observed", "source_ids", "evidence_classification"],
+  "properties": {
+
+    "exercise_id": {
+      "type": "string",
+      "pattern": "^EX[0-9]{3}$",
+      "description": "Stable surrogate key. Assigned in extraction order (EX001-EX052 = Tier 1 / Harvest 1 full-triad rows; EX053+ = Tier 2 supplementary rows). Never reused or renumbered once assigned, so external references (alias table, evidence table, future SYSTEM_METADATA rows, workout logs) stay valid across dataset versions."
+    },
+    "canonical_name": {
+      "type": "string",
+      "description": "The single name this database uses to refer to the exercise. Chosen as the most specific, least ambiguous name available in the source material. See alias_table.csv for every other name mapped to this one, and unresolved_questions.md for cases where two source documents proposed conflicting canonical names for what may be the same movement."
+    },
+    "tier": {
+      "type": "integer",
+      "enum": [1, 2],
+      "description": "Extraction tier, NOT a quality/importance ranking of the exercise itself. Tier 1 = full evidence triad (equipment/cues/purpose + observed reps/sets/pairings/formats + analyst classification) transcribed directly from Alloy Exercise Library Harvest.md's three normalized tables. Tier 2 = a distinct, named exercise with at least one concrete evidentiary anchor (a dated workout appearance with reps/sequence, a documented progression/regression chain, or its own taxonomy-table row) pulled from the two forensic reports or Harvest 2's narrative, but without a full triad. Tier 2 rows have materially more NULL fields than Tier 1 -- that is intentional, not a defect."
+    },
+    "alloy_observed": {
+      "type": "boolean",
+      "description": "TRUE if at least one evidence row for this exercise is classified ALLOY_OBSERVED (i.e., the exercise appears with concrete reps/sets/sequence/pairing inside a specific, nameable public Alloy workout, or in first-party demonstration imagery). FALSE means the exercise is known ONLY from a documented statement (a progression/regression name-drop, a taxonomy definition, a corporate philosophy article) with no recovered instance of it actually being prescribed in a specific workout. This is a coarse rollup; the authoritative per-fact record is exercise_evidence.csv."
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Foreign keys into sources.csv. For Tier 1 rows this is normally a single Alloy URL (Harvest 1 gives one source_url per exercise covering all three of its evidence domains). For Tier 2 rows this can be several ids mixing a real resolvable URL (RS1-## = RAW_STRONG works-cited number) with a document+citation-marker id (H2:<token> / RS2:<token>) where the underlying research citation in the source document is not itself a resolvable URL in the visible document text."
+    },
+
+    "primary_pattern": {
+      "type": ["string", "null"],
+      "description": "The exercise's dominant movement family (e.g. Squat, Hinge, Push, Pull, Lunge, Carry, Core, Full Body, Locomotion, Plyometric, Mobility). Sourced from Harvest 1's 'movement_family' column (Tier 1) or the taxonomy-table classification in RAW_STRONG / RAW_STRONG_2 (Tier 2). This is SUPPORTED_PATTERN-class evidence: an analyst classification already present in the source documents, not one invented in this build."
+    },
+    "secondary_patterns": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Additional free-text pattern descriptors as given verbatim by the source (e.g. 'Anterior Core', 'Horiz Pull', 'Explosive Hinge'). Kept as source-verbatim strings rather than forced into a controlled vocabulary, because the two forensic reports and the two harvests do not share one taxonomy -- see unresolved_questions.md, 'No single agreed secondary-pattern vocabulary'."
+    },
+    "upper_lower": {
+      "type": ["string", "null"],
+      "enum": ["Upper", "Lower", "Core", "Full", null],
+      "description": "Body-region bias as stated by the source's analytic classification."
+    },
+    "push_pull": {
+      "type": ["string", "null"],
+      "enum": ["Push", "Pull", "Hybrid", "Push/Pull", "N/A", null],
+      "description": "Push/pull bias as stated by the source. 'Hybrid' and 'Push/Pull' are both source-verbatim values (Harvest 1 uses both terms for different multi-pattern exercises) and are intentionally NOT collapsed into one value."
+    },
+    "horizontal_vertical": {
+      "type": ["string", "null"],
+      "enum": ["Horizontal", "Vertical", null],
+      "description": "Populated ONLY when the source's own secondary_pattern text literally contains the word 'Horiz' or 'Vertical' (e.g. 'Horiz Pull', 'Vertical Pull'), or a Tier-2 source explicitly names the plane. This field is deliberately sparse in Tier 1 -- most Harvest 1 rows never state it, and it is left null rather than inferred from the exercise name."
+    },
+    "unilateral_bilateral": {
+      "type": ["string", "null"],
+      "description": "Laterality as stated by the source. Not a strict enum: source values observed include 'Unilateral', 'Bilateral', 'Bilateral/Uni', 'Contralateral', 'Alternating' -- these are preserved verbatim because they encode real distinctions (e.g. 'Contralateral' vs generic 'Unilateral' matters for a Bird Dog / Deadbug-family exercise) that a forced binary would destroy."
+    },
+    "stance": {
+      "type": ["string", "null"],
+      "description": "Explicit stance descriptor (e.g. 'Half-kneeling / tall-kneeling') ONLY where a source states one for that specific exercise. Almost entirely null in this V0 dataset -- Harvest 1's triad never captures stance as its own attribute; it is only recovered for a handful of Tier-2 exercises where the workout corpus names a kneeling variant explicitly."
+    },
+    "plane": {
+      "type": ["string", "null"],
+      "description": "Movement plane (sagittal / frontal / transverse) ONLY where a source explicitly states it for that exercise. Not populated in V0 -- the source material defines plane at the taxonomy-token level (e.g. RAW_STRONG's H-PUSH definition mentions 'sagittal or transverse plane') rather than per individual exercise, and generalizing a token-level definition down to every member exercise would be an invented inference, not an evidence-derived fact. Reserved for a future harvest pass; see unresolved_questions.md."
+    },
+
+    "equipment_requirements": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Equipment string(s) exactly as given by the source (e.g. 'Kettlebell', 'Suspension Trainer', 'Box, Dumbbells'). Not normalized into a controlled equipment taxonomy in V0 -- see the project's separate Equipment Library, which this field should eventually be validated against."
+    },
+
+    "strength": {"type": ["boolean", "null"], "description": "Strength-flag as given by Harvest 1's Analytic Classification table (Tier 1) or explicitly stated for a Tier-2 exercise. Null = not evidenced, NOT false."},
+    "power": {"type": ["boolean", "null"], "description": "Power-flag as given by the source. Null = not evidenced, NOT false."},
+    "conditioning": {"type": ["boolean", "null"], "description": "Conditioning-flag as given by the source. Null = not evidenced, NOT false."},
+    "mobility": {"type": ["boolean", "null"], "description": "Mobility-flag. Harvest 1's triad does not include a mobility boolean column at all (it uses movement_family='Mobility' instead); this field is populated only for Tier-2 warm-up/mobility drills where the source explicitly frames the exercise as mobility work. For Tier-1 mobility-family exercises, rely on primary_pattern=='Mobility' rather than this flag, which is null there."},
+    "core_function": {
+      "type": ["string", "null"],
+      "description": "Core-stability function as stated by the source (e.g. 'Anti-extension', 'Anti-rotation', 'Dynamic Stabilization'). Free text, not an enum, because sources combine categories (e.g. 'Anti-flexion / Anti-rotation')."
+    },
+
+    "observed_rep_ranges": {"type": ["string", "null"], "description": "Rep values/ranges as they actually appear across the source's recovered workout instances for this exercise. Free text (e.g. '5, 8, 10, 15' or '1-8 ascending ladder') because Alloy's own material expresses this inconsistently (fixed reps, per-side reps, ascending ladders, time-based) and forcing a numeric min/max would discard real information -- e.g. an ascending-ladder exercise has no single 'range', it has a documented sequence."},
+    "observed_set_ranges": {"type": ["string", "null"], "description": "Set/round values as observed, same free-text rationale as observed_rep_ranges."},
+    "observed_time_prescriptions": {"type": ["string", "null"], "description": "Time-based prescriptions (e.g. '2-3 minutes', '50s work/20s rest') where the source gives duration instead of, or alongside, reps. Sparsely populated in V0 -- most Tier-1 rows express intensity in reps/sets rather than time; time data is concentrated in a handful of Tier-2 conditioning/warm-up entries."},
+    "observed_pairings": {"type": ["string", "null"], "description": "Explicit A/B superset, compound-set, or tri-set partner exercise(s) as named by the source. Populated ONLY when the source presents a clear, explicit pairing -- not inferred from two exercises merely sharing a circuit (per Harvest 2's own stated methodology, which this build follows)."},
+    "observed_workout_formats": {"type": ["string", "null"], "description": "Named workout format(s) in which the exercise has been observed (e.g. 'EMOM, Ladders', '20-min AMRAP')."},
+
+    "documented_progressions": {"type": ["string", "null"], "description": "Alloy-documented harder variant(s) or progression target(s), exactly as stated by the source (name of the next exercise, or a described mechanism such as 'increase load and ROM'). ALLOY_DOCUMENTED-class evidence."},
+    "documented_regressions": {"type": ["string", "null"], "description": "Alloy-documented easier variant(s) or regression target(s), same sourcing rule as documented_progressions."},
+    "documented_substitutions": {"type": ["string", "null"], "description": "An explicitly stated tool/implement swap that preserves the same movement pattern/token (e.g. barbell bench press -> neutral-grip dumbbell floor press). Distinct from progressions/regressions, which change difficulty; substitutions change the tool while holding the training objective constant. Sparsely populated in V0 -- most substitution statements in the source material are given at the philosophy/section level ('the coach swaps the tool') rather than tied to one specific exercise pair with enough specificity to attach to a single row."},
+    "documented_coaching_cues": {"type": ["string", "null"], "description": "Verbatim or closely-paraphrased technique cue(s) attributed to Alloy material for this exercise. ALLOY_DOCUMENTED-class evidence."},
+    "documented_purpose": {"type": ["string", "null"], "description": "Alloy's stated rationale/benefit for the exercise. Not part of the user's originally-listed field set, but preserved because Harvest 1 provides it directly for every Tier-1 row and dropping it would discard real ALLOY_DOCUMENTED evidence; treat as a bonus field, safe to ignore downstream."},
+
+    "evidence_classification": {
+      "type": "string",
+      "enum": ["ALLOY_DOCUMENTED", "ALLOY_OBSERVED", "SUPPORTED_PATTERN"],
+      "description": "Rollup of the STRONGEST evidence class attached to this exercise across exercise_evidence.csv, in priority order ALLOY_DOCUMENTED > ALLOY_OBSERVED > SUPPORTED_PATTERN. This is a convenience field for quick filtering; it necessarily loses information (an exercise can carry facts of more than one class at once -- e.g. its cues might be ALLOY_DOCUMENTED while its movement-family tag is SUPPORTED_PATTERN). For per-field evidence provenance, always join against exercise_evidence.csv rather than trusting this single value. SYSTEM_DESIGN never appears here in V0 -- no exercise-level fact in this dataset was invented by this build; SYSTEM_DESIGN facts belong exclusively in the separate SYSTEM_METADATA layer."
+    },
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Build-time caveats: possible duplicate relationships to another exercise_id, cross-document naming conflicts, or scope limitations on the evidence. Anything flagged here is also surfaced in unresolved_questions.md."
+    }
+  },
+
+  "evidence_classification_definitions": {
+    "ALLOY_DOCUMENTED": "Directly stated by Alloy (a coaching cue, a named progression/regression/substitution, a stated purpose, an equipment requirement) -- corresponds to Harvest 1's 'Explicitly Documented' domain and to '[DOCUMENTED ALLOY STATEMENT]' tags in the forensic reports.",
+    "ALLOY_OBSERVED": "Directly observable in a legitimate public Alloy workout or demonstration -- a specific dated/named workout prescribes this exercise with concrete reps/sets/sequence, or first-party imagery shows it -- corresponds to Harvest 1's 'Directly Observed' domain and to '[DIRECTLY OBSERVED WORKOUT]' tags.",
+    "SUPPORTED_PATTERN": "A defensible pattern inferred from multiple pieces of evidence -- corresponds to Harvest 1's 'Analytic Classification' domain and to '[REASONABLE INFERENCE]' tags. Note: this classification is already present IN the source research documents (prior analysts made these inferences); this build does not add new SUPPORTED_PATTERN inferences of its own.",
+    "SYSTEM_DESIGN": "A rule this personal application creates. NOT USED anywhere in exercise_dataset.json/csv in V0 -- reserved exclusively for the separate SYSTEM_METADATA layer (see system_metadata_schema.json), which is intentionally left unpopulated in this delivery so that no invented rule can be silently mistaken for an Alloy fact."
+  },
+
+  "companion_tables": {
+    "alias_table.csv": "alias -> exercise_id mapping with per-row dedup_rationale, confidence, and flagged_uncertain.",
+    "sources.csv": "Registry of every source_id referenced anywhere in this dataset: resolvable URL where one exists, else the origin document + the citation marker as printed in that document.",
+    "exercise_evidence.csv": "The authoritative fact-level junction table: one row per (exercise_id, source_id, evidence_classification) triple, with the specific fact text that classification supports. exercise_dataset.evidence_classification is a lossy rollup of this table; this table is the source of truth."
+  }
+}

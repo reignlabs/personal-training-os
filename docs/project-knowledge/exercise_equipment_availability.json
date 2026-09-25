@@ -1,0 +1,826 @@
+[
+  {
+    "exercise_id": "EX001",
+    "canonical_name": "Push-Up",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Bodyweight; Suspension Trainer; Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX002",
+    "canonical_name": "Jump Lunges",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX003",
+    "canonical_name": "Bird Dog Plank",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX004",
+    "canonical_name": "Touch Down Squats",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX005",
+    "canonical_name": "Yard Sprint",
+    "primary_pattern": "Locomotion",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX006",
+    "canonical_name": "Burpee",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX007",
+    "canonical_name": "Overhead Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX008",
+    "canonical_name": "Single-Arm Kettlebell Swing",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX009",
+    "canonical_name": "Single-Arm Kettlebell Clean",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX010",
+    "canonical_name": "Squat to Cable Row",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Cable / Suspension",
+    "availability_status": "UNKNOWN",
+    "reasoning": "Requires either an adjustable-height cable pulley or a suspension trainer. TRX not present. The user-stated cable stations are (per user description) fixed single-purpose selectorized machines (chest press / row / shoulder press / leg curl / squat); whether the 'row' station has a low, freely-angled pulley suitable for this combined squat-to-row movement is not confirmed. Needs user confirmation of cable-station type."
+  },
+  {
+    "exercise_id": "EX011",
+    "canonical_name": "Kettlebell Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX012",
+    "canonical_name": "Goblet Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX013",
+    "canonical_name": "Goblet Split Squat",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX014",
+    "canonical_name": "Kettlebell Bent Over Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX015",
+    "canonical_name": "Kettlebell Overhead Press",
+    "primary_pattern": "Press",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX016",
+    "canonical_name": "Single Arm Kettlebell Thruster",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX017",
+    "canonical_name": "Kettlebell Suitcase Lunge",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX018",
+    "canonical_name": "Kettlebell Front Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX019",
+    "canonical_name": "Swing to Squat",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX020",
+    "canonical_name": "Speed Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX021",
+    "canonical_name": "Assisted Single-Leg Lowering",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Roller / Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "Equipment list is an OR ('Roller / Bodyweight'). Foam roller not confirmed present, but the bodyweight-only version of this assisted mobility drill is executable without it (reduced assistance)."
+  },
+  {
+    "exercise_id": "EX022",
+    "canonical_name": "Half Kneeling Low to High Chop",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Cable / Band",
+    "availability_status": "UNKNOWN",
+    "reasoning": "Half-kneeling chop needs an adjustable-height cable column or a resistance band. Band not present. Whether any user-stated cable station has a free adjustable pulley (vs. a fixed single-plane machine) is unconfirmed — needs user clarification."
+  },
+  {
+    "exercise_id": "EX023",
+    "canonical_name": "Lateral Band Walk",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Resistance Band",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a resistance band. No band visible or stated."
+  },
+  {
+    "exercise_id": "EX024",
+    "canonical_name": "Single-Arm Kettlebell Snatch",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX025",
+    "canonical_name": "Plank With Shoulder Touch",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX026",
+    "canonical_name": "Suspension Ys",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX027",
+    "canonical_name": "Assisted Squats",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX028",
+    "canonical_name": "Suspension Hip Bridge to Leg Curl",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX029",
+    "canonical_name": "Stability Ball Rollout",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Stability Ball; Suspension Trainer",
+    "availability_status": "AVAILABLE",
+    "reasoning": "Equipment list offers Stability Ball OR Suspension Trainer as alternate implements for this rollout. Stability ball is confirmed present."
+  },
+  {
+    "exercise_id": "EX030",
+    "canonical_name": "Skaters",
+    "primary_pattern": "Plyometric",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX031",
+    "canonical_name": "Reverse Lunges",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX032",
+    "canonical_name": "Mountain Climbers",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX033",
+    "canonical_name": "Box Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Box / Dumbbells",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Box Row needs a support surface (box) plus a dumbbell. No box present; a flat bench (EQ005) can substitute as the support surface."
+  },
+  {
+    "exercise_id": "EX034",
+    "canonical_name": "Renegade Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Dumbbells / Kettlebells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells / Kettlebells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX035",
+    "canonical_name": "Suspension Flutter",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX036",
+    "canonical_name": "Standing External Rotation Hip Stretch",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX037",
+    "canonical_name": "Quad Cross-Body Foam Roller Stretch",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Foam Roller",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a foam roller. None visible or stated."
+  },
+  {
+    "exercise_id": "EX038",
+    "canonical_name": "Spiderman Stretch",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX039",
+    "canonical_name": "Single-Arm Suspension Pull Up",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX040",
+    "canonical_name": "Suspension Halo",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX041",
+    "canonical_name": "Dumbbell Floor Press",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX042",
+    "canonical_name": "Jump Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX043",
+    "canonical_name": "Explosive Ball Slams",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Medicine Ball",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a medicine ball. None visible or stated."
+  },
+  {
+    "exercise_id": "EX044",
+    "canonical_name": "TRX Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Suspension Trainer",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires 'Suspension Trainer', not present in confirmed inventory and no viable substitute identified."
+  },
+  {
+    "exercise_id": "EX045",
+    "canonical_name": "Explosive Broad Jump",
+    "primary_pattern": "Plyometric",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX046",
+    "canonical_name": "Farmer's Carry",
+    "primary_pattern": "Carry",
+    "equipment_requirements": "Kettlebells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX047",
+    "canonical_name": "Contralateral Single Leg Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX048",
+    "canonical_name": "Chin Up",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Pull-up Bar",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Pull-up Bar' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX049",
+    "canonical_name": "Figure 8",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX050",
+    "canonical_name": "Trap Bar Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Trap Bar",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Requires a trap/hex bar, not present. A standard Olympic barbell (confirmed present) can substitute for a conventional/barbell deadlift, but this changes bar path, grip, and load mechanics versus a true trap-bar deadlift — not biomechanically equivalent."
+  },
+  {
+    "exercise_id": "EX051",
+    "canonical_name": "Box Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Box; Dumbbell / Kettlebell",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Box Squat needs a box (or equivalent riser) plus a dumbbell/kettlebell. No box present; a flat bench (EQ005) can substitute, but bench height/stability for a box-squat sit-back is not confirmed appropriate — flag as a safety/fit caveat."
+  },
+  {
+    "exercise_id": "EX052",
+    "canonical_name": "Step-Up",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Box; Dumbbells",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Step-Up needs an elevated surface (box) plus optional dumbbells. No box present; a flat bench (EQ005) is a standard substitute."
+  },
+  {
+    "exercise_id": "EX053",
+    "canonical_name": "Racked Kettlebell Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX054",
+    "canonical_name": "Dumbbell Bench Press",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Dumbbells; Bench",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX055",
+    "canonical_name": "3-Point Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX056",
+    "canonical_name": "Single-Leg Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Dumbbells (implement unspecified in some sources)",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells (implement unspecified in some sources)' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX057",
+    "canonical_name": "Single-Leg Slider Knee Tuck",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Slider; Bodyweight",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a slider disc (with bodyweight as the load, not an alternate implement). No slider visible or stated, and the carpeted gym floor is not confirmed suitable for an improvised towel-slide substitute."
+  },
+  {
+    "exercise_id": "EX058",
+    "canonical_name": "Banded Split Squat",
+    "primary_pattern": "Lunge",
+    "equipment_requirements": "Resistance Band; Bodyweight",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Banded Split Squat needs a resistance band; none present. The unloaded bodyweight split squat (dropping the band) is executable, but this removes the added resistance the exercise is specifically designed around."
+  },
+  {
+    "exercise_id": "EX059",
+    "canonical_name": "Batwing Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX060",
+    "canonical_name": "Power Wheel Rollout",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Power Wheel / Ab Wheel",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a power wheel / ab wheel. None visible or stated. (Note: Stability Ball Rollout, EX029, is already AVAILABLE as a related anti-extension core movement in this library, but is a distinct exercise, not a substitution for this one.)"
+  },
+  {
+    "exercise_id": "EX061",
+    "canonical_name": "Elevator Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Bodyweight / Box",
+    "availability_status": "AVAILABLE",
+    "reasoning": "Equipment list is an OR ('Bodyweight / Box'). The bodyweight-only elevator squat is fully executable without a box."
+  },
+  {
+    "exercise_id": "EX062",
+    "canonical_name": "Deficit Push-Up",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Bodyweight; Elevated handles",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Deficit Push-Up needs bodyweight plus elevated handles. No dedicated push-up handles/parallettes confirmed at the right (low) height; two matched hex dumbbells (confirmed present) are a common practical substitute for hand elevation."
+  },
+  {
+    "exercise_id": "EX063",
+    "canonical_name": "Explosive Push-Up",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX064",
+    "canonical_name": "Kettlebell Swing (Two-Arm)",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX065",
+    "canonical_name": "Dumbbell Romanian Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX066",
+    "canonical_name": "Dumbbell Bent-Over Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX067",
+    "canonical_name": "Pull-Up",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Pull-up Bar",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Pull-up Bar' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX068",
+    "canonical_name": "2-Point Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX069",
+    "canonical_name": "Chest-Supported Row",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Bench; Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bench' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX070",
+    "canonical_name": "See-Saw Incline Dumbbell Press",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Dumbbells; Incline Bench",
+    "availability_status": "AVAILABLE",
+    "reasoning": "Needs dumbbells (confirmed) plus an incline bench. EQ011's incline capability is LIKELY based on its two-piece seat/back pad design, but not confirmed from a photo showing it inclined — flag this dependency."
+  },
+  {
+    "exercise_id": "EX071",
+    "canonical_name": "Half-Kneeling Single-Arm Kettlebell Overhead Press",
+    "primary_pattern": "Press",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX072",
+    "canonical_name": "Thruster",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Dumbbells or Kettlebell (implement ambiguous across sources)",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells or Kettlebell (implement ambiguous across sources)' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX073",
+    "canonical_name": "Kettlebell Suitcase Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX074",
+    "canonical_name": "Double-Kettlebell Squat",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Kettlebell (x2)",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell (x2)' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX075",
+    "canonical_name": "Knee Plank",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX076",
+    "canonical_name": "Traditional Plank",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX077",
+    "canonical_name": "Marching Plank",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX078",
+    "canonical_name": "Plank with a Reach",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX079",
+    "canonical_name": "Around-the-World Plank",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX080",
+    "canonical_name": "Box Hip Bridge",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Box; Bodyweight",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Box Hip Bridge needs a box to elevate the working foot; none present. A flat bench (EQ005) is a standard substitute."
+  },
+  {
+    "exercise_id": "EX081",
+    "canonical_name": "Limited-ROM Kettlebell Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX082",
+    "canonical_name": "Barbell Deadlift",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Barbell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Barbell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX083",
+    "canonical_name": "Quadruped Isometric Hold",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX084",
+    "canonical_name": "Bear Crawl",
+    "primary_pattern": "Locomotion",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX085",
+    "canonical_name": "Spider Crawl",
+    "primary_pattern": "Locomotion",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX086",
+    "canonical_name": "Turkish Get-Up",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX087",
+    "canonical_name": "Get-Up Sit-Up",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX088",
+    "canonical_name": "Sit-Out",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX089",
+    "canonical_name": "Single-Leg Hip Bridge",
+    "primary_pattern": "Hinge",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX090",
+    "canonical_name": "Deadbug",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Bodyweight or Dumbbells",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight or Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX091",
+    "canonical_name": "Pallof Press",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Cable / Band",
+    "availability_status": "UNKNOWN",
+    "reasoning": "Pallof Press needs an adjustable-height anti-rotation cable pull or a band. Band not present. Whether any user-stated cable station (fixed single-purpose machines, per user description) can be used perpendicular to its handle path for this movement is unconfirmed — needs user clarification."
+  },
+  {
+    "exercise_id": "EX092",
+    "canonical_name": "Inchworm",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX093",
+    "canonical_name": "Jumping Jacks",
+    "primary_pattern": "Conditioning",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX094",
+    "canonical_name": "Band Pull-Apart",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Resistance Band",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Requires a resistance band. None visible or stated."
+  },
+  {
+    "exercise_id": "EX095",
+    "canonical_name": "Half-Kneeling Pulldown",
+    "primary_pattern": "Pull",
+    "equipment_requirements": "Cable / Band",
+    "availability_status": "NOT_AVAILABLE",
+    "reasoning": "Half-Kneeling Pulldown needs a cable column with an overhead/high pulley position. The user-stated cable stations are chest press, row, shoulder press, hamstring leg curl, and squat — no pulldown-specific or adjustable-height station was named. A pull-up bar is present but is a different (unassisted, bodyweight) movement, not a substitute for a cable pulldown's loading profile."
+  },
+  {
+    "exercise_id": "EX096",
+    "canonical_name": "Single-Arm Dumbbell Bench Press",
+    "primary_pattern": "Push",
+    "equipment_requirements": "Dumbbells; Bench",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Dumbbells' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX097",
+    "canonical_name": "Single-Leg Squat to Box",
+    "primary_pattern": "Squat",
+    "equipment_requirements": "Box; Bodyweight",
+    "availability_status": "AVAILABLE_WITH_SUBSTITUTION",
+    "reasoning": "Single-Leg Squat to Box needs a box; none present. A flat bench (EQ005) is a standard substitute, though bench height may not match an ideal single-leg-squat depth."
+  },
+  {
+    "exercise_id": "EX098",
+    "canonical_name": "Kettlebell Halo",
+    "primary_pattern": "Core",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX099",
+    "canonical_name": "Kettlebell Clean-to-Press",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell or Medicine Ball",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell or Medicine Ball' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX100",
+    "canonical_name": "Squat Clean",
+    "primary_pattern": "Full Body",
+    "equipment_requirements": "Kettlebell",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Kettlebell' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX101",
+    "canonical_name": "Ankle Rocks",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX102",
+    "canonical_name": "Hip Circles",
+    "primary_pattern": "Mobility",
+    "equipment_requirements": "Bodyweight",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Bodyweight' is directly available in confirmed inventory."
+  },
+  {
+    "exercise_id": "EX103",
+    "canonical_name": "Stationary Bike (Warm-up)",
+    "primary_pattern": "Conditioning",
+    "equipment_requirements": "Stationary Bike",
+    "availability_status": "AVAILABLE",
+    "reasoning": "'Stationary Bike' is directly available in confirmed inventory."
+  }
+]
